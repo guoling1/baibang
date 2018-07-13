@@ -71,3 +71,266 @@
     width: 0.18rem;
     height: 0.18rem;
 }
+/*订单*/
+#order {
+    background: #f0f0f0;
+}
+#order .container .top{
+    margin-top: 0.1rem;
+    display: flex;
+    justify-content: space-around;
+    background: #fff;
+}
+#order .container .top div{
+    text-align: center;
+    height: 2.38rem;
+    width: 49%;
+    font-size: 0.3rem;
+}
+#order .container .top div:nth-child(1){
+    width: 50%;
+    border-right: 1px solid #f0f0f0;
+}
+#order .container .top div .num{
+    margin: 0.6rem 0 0.25rem;
+    font-size: 0.48rem;
+    font-weight: bold;
+}
+#order .container ul{
+    background: #fff;
+    font-size: 0.3rem;
+}
+#order .container ul li{
+    padding: 0 0.3rem;
+    border-top: 1px solid #f0f0f0;
+    height: 1.48rem;
+    line-height: 1.48rem;
+}
+#order .container ul li img{
+    float: right;
+    margin-top: 0.56rem;
+    height: 0.35rem;
+}
+/*设置*/
+#setting {
+    background: #f0f0f0;
+}
+#setting .container ul{
+    margin-top: 0.1rem;
+    padding: 0 0.3rem;
+    background: #fff;
+    font-size: 0.36rem;
+}
+#setting .container ul li:nth-child(1){
+    border: none;
+}
+#setting .container ul li{
+    border-top: 1px solid #f0f0f0;
+    height: 1.2rem;
+    line-height: 1.2rem;
+}
+#setting .container ul li img{
+    display: inline-block;
+    margin-right: 0.25rem;
+    width: 0.45rem;
+    vertical-align: middle;
+}
+/*消息中心*/
+#message {
+    background: #f0f0f0;
+}
+#message .container ul{
+}
+#message .container ul li{
+    padding: 0 0.3rem;
+    margin-top: 0.1rem;
+    background: #fff;
+    font-size: 0.32rem;
+}
+#message .container ul li .top{
+    height: 0.6rem;
+    line-height: 0.6rem;
+}
+#message .container ul li .top .time{
+    font-size: 0.24rem;
+    color: #999;
+}
+#message .container ul li .top img{
+    float: right;
+    margin-top: 0.14rem;
+    width: 0.24rem;
+}
+#message .container ul li p{
+    line-height: 0.55rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#message .container ul li a{
+    float: right;
+    line-height: 0.55rem;
+    font-size: 0.22rem;
+    color: #666;
+}
+/*区域选择*/
+#selectAddress{
+    padding: 0.3rem 0.3rem 0;
+    background: #f0f0f0;
+    font-size: 0.19rem;
+}
+#selectAddress .top{
+    border-bottom: 1px solid #f0f0f0;
+}
+#selectAddress .top,#selectAddress .bottom{
+    padding: 0 0.2rem 0.6rem;
+    background: #fff;
+}
+#selectAddress .title{
+    line-height: 0.54rem;
+}
+#selectAddress .top .title img{
+    float: right;
+    margin-top: 0.14rem;
+    width: 0.18rem;
+}
+#selectAddress .search{
+    background: #f0f0f0;
+    border-radius: 0.25rem;
+    height: 0.5rem;
+    line-height: 0.5rem;
+}
+#selectAddress .top .search input{
+    margin-left: 0.25rem;
+    width: 80%;
+    height: 100%;
+}
+#selectAddress .top .search img{
+    float: right;
+    margin: 0.1rem 0.2rem;
+    width: 0.34rem;
+}
+#selectAddress .top ul li{
+    float: left;
+    display: inline-block;
+    margin-right: 0.3rem;
+    margin-top: 0.28rem;
+    padding: 0 0.44rem;
+    line-height: 0.62rem;
+    background: #f0f0f0;
+    border-radius: 0.31rem;
+    font-size: 0.32rem;
+    color: #696969;
+}
+#selectAddress .top ul li.active{
+    color: #ffdd03;
+}
+#selectAddress .bottom .button{
+    text-align: center;
+}
+#selectAddress .bottom button{
+    margin: 0.8rem 0;
+    width: 2.24rem;
+    height: 0.75rem;
+    border-radius: 4px;
+    background: #ffdd03;
+    font-size: 0.36rem;
+    color: #fff;
+}
+/*选择工种*/
+#selectWork{
+    padding: 0.3rem 0.3rem 0;
+    background: #f0f0f0;
+    font-size: 0.26rem;
+}
+#selectWork .top{
+    padding: 0 0.2rem 0.34rem;
+    background: #fff;
+}
+#selectWork .title{
+    font-size: 0.24rem;
+    line-height: 0.54rem;
+}
+#selectWork .top .title img{
+    float: right;
+    margin-top: 0.14rem;
+    width: 0.18rem;
+}
+#selectWork .top ul li{
+    float: left;
+    display: inline-block;
+    margin-right: 0.3rem;
+    margin-top: 0.28rem;
+    padding: 0 0.24rem;
+    line-height: 0.5rem;
+    background: #f0f0f0;
+    border-radius: 5px;
+    color: #696969;
+}
+#selectWork .top ul li.active{
+    color: #ffdd03;
+}
+#selectWork .button{
+    text-align: center;
+}
+#selectWork button{
+    margin: 1.8rem 0 0;
+    width: 2.24rem;
+    height: 0.75rem;
+    border-radius: 4px;
+    background: #ffdd03;
+    font-size: 0.36rem;
+    color: #fff;
+}
+/*设置*/
+#help {
+    background: #f0f0f0;
+}
+#help .container ul{
+    margin-top: 0.3rem;
+    padding: 0 0.3rem;
+    background: #fff;
+    font-size: 0.36rem;
+}
+#help .container ul li:nth-child(1){
+    border: none;
+}
+#help .container ul li{
+    border-top: 1px solid #f0f0f0;
+    height: 1.2rem;
+    line-height: 1.2rem;
+}
+#help .container ul li img{
+    display: inline-block;
+    margin-right: 0.25rem;
+    width: 0.45rem;
+    vertical-align: middle;
+}
+/*修改密码*/
+#changePwd {
+    background: #f0f0f0;
+}
+#changePwd .container ul{
+    margin-top: 0.1rem;
+    padding: 0 0.3rem;
+    background: #fff;
+    font-size: 0.36rem;
+}
+#changePwd .container ul li{
+    border-bottom: 1px solid #f0f0f0;
+    height: 1.04rem;
+    line-height: 1.04rem;
+}
+
+#changePwd .bottom{
+    padding: 0.8rem 0.3rem;
+    background: #fff;
+}
+#changePwd button{
+    width: 100%;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    border-radius: 0.4rem;
+    background: #ffdd03;
+    color: #fff;
+
+}
