@@ -1,0 +1,179 @@
+/*登录*/
+#login .header img{
+    display: inline-block;
+    margin: 0.25rem 0 0 0.4rem;
+    width: 0.4rem;
+    height: 0.4rem;
+}
+#login .main form div{
+    margin: 0.5rem 0 0;
+    padding-bottom: 0.2rem;
+    border-bottom: 1px solid #dbdbdb;
+    font-size: 0.36rem;
+}
+#login .main form div input{
+    font-size: 0.36rem;
+}
+#login .main form div img{
+    vertical-align: bottom;
+    height: 0.42rem;
+}
+#login .main a{
+    color: #999;
+}
+#login .main .changepwd{
+    float: right;
+}
+#login .bottom{
+    position: fixed;
+    bottom: 30px;
+    width: 100%;
+}
+#login .bottom p{
+    margin: 0 auto;
+    border: 1px solid #df4d35;
+    border-radius: 0.1rem;
+    width: 4.1rem;
+    height: 0.7rem;
+    line-height: 0.7rem;
+    text-align: center;
+    font-size: 0.3rem;
+    color: #df4d35;
+}
+/*注册*/
+#login .header,#regist .header{
+    height: 0.9rem;
+}
+#regist .header img{
+    display: inline-block;
+    margin: 0.2rem 0 0 0.45rem;
+    width: 0.3rem;
+    height: 0.5rem;
+}
+#login .main,#regist .main{
+    padding: 0 0.3rem;
+}
+#login .main .icon,#regist .main .icon{
+    display: block;
+    margin: 0.1rem auto;
+    height: 2.17rem;
+}
+#regist .main form div{
+    margin-top: 0.5rem;
+    height: 0.5rem;
+    border-bottom: 1px solid #dbdbdb;
+    font-size: 0.36rem;
+}
+#regist .main form div label{
+    display: inline-block;
+    width: 2.6rem;
+}
+#regist .main form div input{
+    width: 4rem;
+}
+#login .main button,#regist .main button{
+    margin: 0.62rem 0 0.4rem 0;
+    border-radius: .5rem;
+    width: 100%;
+    height: 1rem;
+    line-height: 1rem;
+    background: #df4d35;
+    font-size: 0.42rem;
+    color: #fff;
+}
+#regist .main .agree span{
+    margin-left: 0.16rem;
+    display: inline-block;
+    vertical-align: middle;
+    width: 0.14rem;
+    height: 0.14rem;
+    border: 1px solid #333;
+}
+#regist .main .agree img{
+    display: inline-block;
+    vertical-align: top;
+    width: 0.14rem;
+    height: 0.14rem;
+}
+
+/*主header*/
+.main_header{
+    position: fixed;
+    background: #df4d35;
+    height: 0.9rem;
+    line-height: 0.9rem;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+.main_header img{
+    float: left;
+    margin: 0.2rem 0 0 0.45rem;
+    width: 0.3rem;
+    height: 0.5rem;
+}
+.main_header .title{
+    display: inline-block;
+    font-size: 0.42rem;
+}
+.main_header .right{
+    float: right;
+    margin-right: 0.3rem;
+    font-size: 0.3rem;
+}
+/*tab*/
+.footer{
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+    border-top: 1px solid #c8c8c8;
+    background: #fff;
+    width: 100%;
+    height: 1rem;
+    text-align: center;
+}
+.footer li{
+    margin-top: 0.1rem;
+}
+.footer li p{
+    font-size: 0.22rem;
+}
+.footer li p.active{
+    color: #df4d35;
+}
+.container{
+    padding: 0.9rem 0 1rem;
+    font-size: 0.3rem;
+}
+.container .detail .title{
+    padding: 0 0.3rem;
+    height: 0.9rem;
+    line-height: 0.9rem;
+    background: #f0f0f0;
+    font-size: 0.36rem;
+}
+.container .detail .content{
+    padding: 0 0.3rem;
+
+}
+.container .detail .content .job_number{
+    height: 0.84rem;
+    line-height: 0.84rem;
+    border-bottom: 1px solid #f0f0f0;
+}
+.container .detail .content p{
+    line-height: 0.6rem;
+}
+.container .price{
+    padding: 0 0.3rem;
+    height: 0.88rem;
+    line-height: 0.88rem;
+    border-top: 0.2rem solid #f0f0f0;
+    border-bottom: 0.2rem solid #f0f0f0;
+}
+.container .price input{
+    width: 2rem;
+    color: #df4d35;
+    font-size: 0.36rem;
+}
