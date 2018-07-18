@@ -99,6 +99,7 @@
 /*主header*/
 .main_header{
     z-index: 10;
+    /*padding: 0 0.3rem;*/
     position: fixed;
     background: #00c47e;
     height: 0.9rem;
@@ -109,12 +110,14 @@
 }
 .main_header .left{
     float: left;
+    text-align: left;
+    width: 2rem;
 }
 .main_header .left span{
     vertical-align: top;
 }
 .main_header .left img{
-    margin: 0rem 0 0 0.45rem;
+    margin: 0rem 0 0 0.3rem;
     vertical-align: middle;
     width: 0.2rem;
 }
@@ -124,6 +127,8 @@
 }
 .main_header .right{
     float: right;
+    text-align: right;
+    width: 2rem;
     margin-right: 0.3rem;
 }
 .main_header .right img{
@@ -255,7 +260,7 @@
 #index .strategy_recommend{
     padding-bottom: 0.26rem;
     background: #fff;
-    border-bottom: 1px solid #333;
+    border-bottom: 1px solid #d6d6d6;
 }
 #index .strategy_recommend .recommend_main{
     padding: 0 0.3rem;
@@ -274,6 +279,44 @@
 }
 #index .strategy_recommend .time{
     float: right;
+    line-height: 0.4rem;
     font-size: 0.2rem;
     color: #666;
+}
+#index .strategy_list{
+    padding: 0 0.3rem 0.3rem;
+    background: #fff;
+}
+#index .strategy_list li{
+    padding: 0.29rem 0;
+    border-bottom: 1px solid #d6d6d6;
+}
+#index .strategy_list li .left{
+    float: left;
+    margin-right: 0.21rem;
+    width: 2.2rem;
+    height: 2.1rem;
+}
+#index .strategy_list li .right .recommend_title{
+    font-size: 0.32rem;
+    font-weight: bold;
+}
+#index .strategy_list li .right .des{
+    font-size: 0.24rem;
+    color: #666;
+    line-height: 0.4rem;
+}
+#index .strategy_list li .right .time{
+    line-height: 0.5rem;
+    font-size: 0.2rem;
+    color: #666;
+}
+#index .strategy_list li .right img{
+    vertical-align: middle;
+    width: 0.22rem;
+    height: 0.22rem;
+}
+#index .strategy_list li .right span{
+    font-size: 0.2rem;
+    color: #284179;
 }
