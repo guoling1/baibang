@@ -98,6 +98,7 @@
 
 /*主header*/
 .main_header{
+    z-index: 10;
     position: fixed;
     background: #00c47e;
     height: 0.9rem;
@@ -106,11 +107,16 @@
     text-align: center;
     color: #fff;
 }
-.main_header img{
+.main_header .left{
     float: left;
-    margin: 0.2rem 0 0 0.45rem;
-    width: 0.3rem;
-    height: 0.5rem;
+}
+.main_header .left span{
+    vertical-align: top;
+}
+.main_header .left img{
+    margin: 0rem 0 0 0.45rem;
+    vertical-align: middle;
+    width: 0.2rem;
 }
 .main_header .title{
     display: inline-block;
@@ -119,7 +125,10 @@
 .main_header .right{
     float: right;
     margin-right: 0.3rem;
-    font-size: 0.3rem;
+}
+.main_header .right img{
+    width: 0.48rem;
+    vertical-align: middle;
 }
 /*tab*/
 .footer{
@@ -136,8 +145,13 @@
 .footer li{
     margin-top: 0.1rem;
 }
+.footer li img{
+    height: 0.48rem;
+    width: auto;
+}
 .footer li p{
-    font-size: 0.22rem;
+    font-size: 0.2rem;
+    color: #a7adb3;
 }
 .footer li p.active{
     color: #00c47e;
@@ -145,12 +159,16 @@
 .container{
     padding: 0.9rem 0 1rem;
     font-size: 0.3rem;
+    background: #f6f6f6;
 }
 
 /*首页*/
-#index .head{
+#index .swiper-container{
     height: 3.55rem;
-    background: #ffdd03;
+    /*background: #ffdd03;*/
+}
+#index .swiper-container img{
+    width: 100%;
 }
 #index .tab{
     /*height: 2.32rem;*/
@@ -166,4 +184,96 @@
     display: inline-block;
     width: 1.1rem;
     height: 1.1rem;
+}
+#index .ad{
+    padding: 0.2rem 0;
+}
+#index .ad img{
+    height: 2.76rem;
+}
+#index .category{
+
+}
+#index .category .item{
+    float: left;
+    /*height: 3.02rem;*/
+    width: 50%;
+    border-left:1px solid #f6f6f6;
+    border-bottom: 1px solid #f6f6f6;
+    margin-left: -1px;
+    /*margin-bottom: -1px;*/
+    background: #fff;
+    text-align: center;
+}
+#index .category .item .title{
+    margin: 0.3rem 0 0.2rem;
+    font-size: 0.32rem;
+    font-weight: bold;
+}
+#index .category .item .des{
+    font-size: 0.22rem;
+    color: #999999;
+}
+#index .category .item img{
+    display: inline-block;
+    width: 1.6rem;
+    height: 1.6rem;
+}
+#index .category .item .label{
+    padding: 0 0.07rem;
+    margin: 0 auto 0.1rem;
+    width: 1.20rem;
+    line-height: 0.28rem;
+    background: #ff3e3b;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 0.2rem;
+}
+#index .strategy{
+    margin-top: 0.2rem;
+}
+#index .strategy .title{
+    padding: 0 0.3rem;
+    background: #fff;
+    line-height: 0.9rem;
+    font-size: 0.32rem;
+}
+#index .strategy .title .label{
+    float: left;
+    font-weight: bold;
+}
+#index .strategy .title .more{
+    float: right;
+    font-size: 0.24rem;
+    color: #666;
+}
+#index .strategy .title .more img{
+    display: inline-block;
+    width: 0.22rem;
+    height: 0.18rem;
+}
+#index .strategy_recommend{
+    padding-bottom: 0.26rem;
+    background: #fff;
+    border-bottom: 1px solid #333;
+}
+#index .strategy_recommend .recommend_main{
+    padding: 0 0.3rem;
+}
+#index .strategy_recommend .radio{
+    height: 3.68rem;
+}
+#index .strategy_recommend .recommend_title{
+    margin-top: 0.28rem;
+    font-size: 0.32rem;
+    font-weight: bold;
+}
+#index .strategy_recommend .des{
+    font-size: 0.24rem;
+    color: #666;
+}
+#index .strategy_recommend .time{
+    float: right;
+    font-size: 0.2rem;
+    color: #666;
 }
