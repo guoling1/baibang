@@ -1,0 +1,135 @@
+#buildMall .top{
+    background: url("../images/buildbg.png") no-repeat;
+    background-size: 100% 100%;
+    height: 3.4rem;
+    text-align: center;
+}
+#buildMall .top input{
+    margin-top: 2.3rem;
+    text-align: center;
+    left: 0;
+    width: 7.1rem;
+    height: 0.6rem;
+    background: rgba(255,255,255,0.5);
+    border-radius: 0.06rem;
+    font-size: 0.28rem;
+}
+#buildMall .classify{
+    /*border-bottom: 0.2rem solid #f6f6f6;*/
+    background: #fff;
+}
+#buildMall .classify .item{
+    margin: 0.22rem 0 0.3rem;
+    display: inline-block;
+    text-align: center;
+    width: 24%;
+    font-size: 0.28rem;
+}
+#buildMall .classify .item img{
+    width: 1.1rem;
+    height: 1.1rem;
+}
+
+#buildMall .exchange_title{
+    margin: 0.3rem 0;
+    text-align: center;
+    font-size: 0.32rem;
+    font-weight: bold;
+}
+#buildMall .exchange_title img{
+    width: 2.05rem;
+    height: 0.1rem;
+}
+#buildMall .exchange ul,#buildMall .recommend ul{
+    padding: 0 0.15rem;
+}
+#buildMall .exchange li{
+    display: inline-block;
+    margin: 0 0.1rem 0.3rem;
+    background: #fff;
+    border-radius: 0.2rem;
+    width: 3.34rem;
+    height: 4rem;
+}
+#buildMall .exchange li .title{
+    margin: 0.3rem 0 0.2rem 0.36rem;
+    font-size: 0.28rem;
+    font-weight: bold;
+}
+#buildMall .exchange li .score{
+    margin-left: 0.36rem;
+    display: inline-block;
+    font-size: 0.28rem;
+}
+#buildMall .exchange li .score span{
+    color: #ff3e3b;
+    font-weight: bold;
+    font-size: 0.32rem;
+}
+#buildMall .exchange li .tip{
+    display: inline-block;
+    padding: 0 0.1rem;
+    border-radius: 0.05rem;
+    height: 0.3rem;
+    line-height: 0.3rem;
+    font-size: 0.2rem;
+    color: #fff;
+    background: #ff3e3b;
+}
+#buildMall .exchange li img{
+    margin: 0 0 0.1rem;
+    width: 100%;
+    height: auto;
+}
+
+#buildMall .recommend li{
+    display: inline-block;
+    margin: 0 0.1rem 0.2rem;
+    background: #fff;
+    border-radius: 0.2rem;
+    width: 3.3rem;
+    height: 6.14rem;
+    border: 1px solid #d7d7d7;
+}
+#buildMall .recommend li .recommend_top{
+    margin-bottom: 0.2rem;
+    position: relative;
+    height: 3.74rem;
+    border-bottom: 1px solid #d7d7d7;
+}
+#buildMall .recommend li .recommend_top img{
+    position: absolute;
+    bottom: 0 ;
+    width: 100%;
+    height: 3.55rem;
+}
+#buildMall .recommend li .recommend_title{
+    padding: 0 0.2rem;
+    font-size: 0.28rem;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+#buildMall .recommend li .des{
+    padding: 0 0.2rem;
+    color: #999;
+    font-size: 0.22rem;
+}
+#buildMall .recommend li .recommend_bottom{
+    margin-top: 0.2rem;
+    border-top: 1px dashed #d7d7d7;
+    line-height: 0.8rem;
+    font-size: 0.32rem;
+    font-weight: bold;
+}
+#buildMall .recommend li .recommend_bottom span{
+    margin-left: 0.2rem;
+}
+#buildMall .recommend li .recommend_bottom img{
+    float: right;
+    margin: 0.24rem 0.2rem 0 0;
+    width: 0.32rem;
+    height: 0.32rem;
+}
+

@@ -1,0 +1,153 @@
+/*首页*/
+#index .swiper-container{
+    height: 3.55rem;
+    /*background: #ffdd03;*/
+}
+#index .swiper-container img{
+    width: 100%;
+}
+#index .tab{
+    /*height: 2.32rem;*/
+    background: #fff;
+}
+#index .tab li{
+    margin: 0.4rem 0;
+    display: inline-block;
+    text-align: center;
+    width: 25%;
+}
+#index .tab li img{
+    display: inline-block;
+    width: 1.1rem;
+    height: 1.1rem;
+}
+#index .ad{
+    padding: 0.2rem 0;
+}
+#index .ad img{
+    height: 2.76rem;
+}
+#index .category{
+
+}
+#index .category .item{
+    float: left;
+    /*height: 3.02rem;*/
+    width: 50%;
+    border-left:1px solid #f6f6f6;
+    border-bottom: 1px solid #f6f6f6;
+    margin-left: -1px;
+    /*margin-bottom: -1px;*/
+    background: #fff;
+    text-align: center;
+}
+#index .category .item .title{
+    margin: 0.3rem 0 0.2rem;
+    font-size: 0.32rem;
+    font-weight: bold;
+}
+#index .category .item .des{
+    font-size: 0.22rem;
+    color: #999999;
+}
+#index .category .item img{
+    display: inline-block;
+    width: 1.6rem;
+    height: 1.6rem;
+}
+#index .category .item .label{
+    padding: 0 0.07rem;
+    margin: 0 auto 0.1rem;
+    width: 1.20rem;
+    line-height: 0.28rem;
+    background: #ff3e3b;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 0.2rem;
+}
+#index .strategy{
+    margin-top: 0.2rem;
+}
+#index .strategy .title{
+    padding: 0 0.3rem;
+    background: #fff;
+    line-height: 0.9rem;
+    font-size: 0.32rem;
+}
+#index .strategy .title .label{
+    float: left;
+    font-weight: bold;
+}
+#index .strategy .title .more{
+    float: right;
+    font-size: 0.24rem;
+    color: #666;
+}
+#index .strategy .title .more img{
+    display: inline-block;
+    width: 0.22rem;
+    height: 0.18rem;
+}
+#index .strategy_recommend{
+    padding-bottom: 0.26rem;
+    background: #fff;
+    border-bottom: 1px solid #d6d6d6;
+}
+#index .strategy_recommend .recommend_main{
+    padding: 0 0.3rem;
+}
+#index .strategy_recommend .radio{
+    height: 3.68rem;
+}
+#index .strategy_recommend .recommend_title{
+    margin-top: 0.28rem;
+    font-size: 0.32rem;
+    font-weight: bold;
+}
+#index .strategy_recommend .des{
+    font-size: 0.24rem;
+    color: #666;
+}
+#index .strategy_recommend .time{
+    float: right;
+    line-height: 0.4rem;
+    font-size: 0.2rem;
+    color: #666;
+}
+#index .strategy_list{
+    padding: 0 0.3rem 0.3rem;
+    background: #fff;
+}
+#index .strategy_list li{
+    padding: 0.29rem 0;
+    border-bottom: 1px solid #d6d6d6;
+}
+#index .strategy_list li .left{
+    float: left;
+    margin-right: 0.21rem;
+    width: 2.2rem;
+    height: 2.1rem;
+}
+#index .strategy_list li .right .recommend_title{
+    font-size: 0.32rem;
+    font-weight: bold;
+}
+#index .strategy_list li .right .des{
+    font-size: 0.24rem;
+    color: #666;
+    line-height: 0.4rem;
+}
+#index .strategy_list li .right .time{
+    line-height: 0.5rem;
+    font-size: 0.2rem;
+    color: #666;
+}
+#index .strategy_list li .right img{
+    vertical-align: middle;
+    width: 0.22rem;
+    height: 0.22rem;
+}
+#index .strategy_list li .right span{
+    font-size: 0.2rem;
+    color: #284179;
+}
