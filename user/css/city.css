@@ -1,0 +1,87 @@
+.main_header {
+    background: #fff;
+    color: #333;
+    border-bottom: 1px solid #f0f0f0;
+}
+.main_header .right{
+    color: #fff;
+}
+#city .search{
+    text-align: center;
+    position: relative;
+    /*padding: 0 0.3rem;*/
+    height: 1.09rem;
+    background: #fff;
+    border-bottom: 1px solid #f0f0f0;
+}
+#city .search input{
+
+    padding-left: 0.8rem;
+    margin-top: 0.195rem;
+    width: 6.1rem;
+    height: 0.7rem;
+    line-height: 0.7rem;
+    font-size: 0.26rem;
+    color: #999999;
+    background: #f0f0f0;
+    border-radius: 0.2rem;
+}
+.search img{
+    position: absolute;
+    top: 0.335rem;
+    left: 0.5rem;
+    width: 0.46rem;
+    height: 0.42rem;
+}
+#city .now{
+    padding: 0 0.3rem;
+    height: 0.84rem;
+    line-height: 0.84rem;
+    background: #fff;
+    font-size: 0.26rem;
+    font-weight: bold;
+}
+#city .recommend{
+    padding: 0 0.3rem;
+}
+#city .recommend .title{
+    margin: 0.17rem 0 0.3rem;
+    font-size: 0.3rem;
+    color: #7f7f7f;
+    font-weight: bold;
+}
+#city .recommend li{
+    float: left;
+    margin: 0 0.1rem 0.2rem;
+    width: 2.03rem;
+    height: 0.7rem;
+    line-height: 0.7rem;
+    background: #fff;
+    text-align: center;
+    font-size: 0.26rem;
+    border: 1px solid #ececec;
+    border-radius: 4px;
+}
+#city .city{
+    background: #fff;
+    padding: 0 0.3rem 0.3rem;
+}
+#city .city .title{
+    padding-top: 0.3rem;
+    font-size: 0.26rem;
+    color: #999;
+}
+#city .city li{
+    height: 0.69rem;
+    line-height: 0.69rem;
+    font-size: 0.3rem;
+    font-weight: bold;
+    border-bottom: 1px solid #e8e8e8;
+}
+#city .right{
+    text-align: center;
+    position: fixed;
+    right: 0;
+    top: 1rem;
+    width: 0.3rem;
+}

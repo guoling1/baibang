@@ -1,0 +1,41 @@
+#priceLevel .left{
+    position: fixed;
+    width: 38%;
+    min-height: 100%;
+    background: rgba(255,255,255,0.6);
+}
+#priceLevel .left li{
+    height: 0.88rem;
+    line-height: 0.88rem;
+    text-align: center;
+    font-size: 0.34rem;
+    color: #666;
+    border-bottom: 1px solid #e7e7e7;
+}
+#priceLevel .left li.active{
+    color: #333;
+    font-weight: bold;
+}
+
+#priceLevel .right{
+    margin: 0.3rem 0 0.3rem 42%;
+    border: 1px solid #e7e7e7;
+}
+#priceLevel .right tr{
+    text-align: center;
+    font-size: 0.24rem;
+    color: #666;
+    background: #fff;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    border-bottom: 1px solid #e7e7e7;
+}
+#priceLevel .right tr th{
+    background: #b6bdba;
+    font-size: 0.28rem;
+    color: #fff;
+    width: 1.97rem;
+}
+#priceLevel .right tr td:nth-child(1),#priceLevel .right tr th:nth-child(1){
+    border-right: 1px solid #e7e7e7;
+}

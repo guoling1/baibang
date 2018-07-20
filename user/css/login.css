@@ -1,9 +1,16 @@
 /*登录*/
+body{
+    background: #fff;
+}
 #login .header img{
     display: inline-block;
     margin: 0.25rem 0 0 0.4rem;
-    width: 0.4rem;
-    height: 0.4rem;
+    width: 0.27rem;
+    height: 0.46rem;
+}
+#login .main img{
+    height: 1.4rem;
+    width: 1.4rem;
 }
 #login .main form div{
     margin: 0.5rem 0 0;
@@ -56,9 +63,11 @@
 #login .main .icon,#regist .main .icon{
     display: block;
     margin: 0.1rem auto;
-    height: 2.17rem;
+    height: 1.4rem;
+    width: 1.4rem;
 }
 #regist .main form div{
+    position: relative;
     margin-top: 0.5rem;
     height: 0.5rem;
     border-bottom: 1px solid #dbdbdb;
@@ -70,6 +79,16 @@
 }
 #regist .main form div input{
     width: 4rem;
+}
+#regist .main form div .vcode{
+    font-size: 0.3rem;
+    position: absolute;
+    right: 0;
+    padding: 0 0.2rem;
+    line-height: 0.42rem;
+    background: #cdd4de;
+    color: #fff;
+    border-radius: 3px;
 }
 #login .main button,#regist .main button{
     margin: 0.62rem 0 0.4rem 0;

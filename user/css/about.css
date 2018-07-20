@@ -1,0 +1,12 @@
+body,.container {
+    background: #fff;
+}
+#about .title{
+    padding: 0.38rem 0.3rem 0;
+    font-size: 0.36rem;
+    color: #666;
+    font-weight: bold;
+}
+.content{
+    padding: 0 0.3rem;
+}
