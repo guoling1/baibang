@@ -1,0 +1,33 @@
+body,.container {
+    background: #fff;
+}
+#decorate ul{
+    padding: 0.3rem 0.3rem 0;
+}
+#decorate ul .top img{
+    width: 100%;
+    height: auto;
+}
+#decorate ul .bottom{
+    margin: 0.29rem 0 0.76rem;
+}
+#decorate ul .title{
+    font-size: 0.36rem;
+}
+#decorate ul .title{
+    float: right;
+    font-size: 0.22rem;
+    color: #666666;
+}
+.button{
+    display: inline-block;
+    text-align: center;
+    margin: 0.4rem 0 1rem;
+    width: 100%;
+    height: 0.82rem;
+    line-height: 0.82rem;
+    background: #00c47d;
+    border-radius: 0.05rem;
+    font-size: 0.4rem;
+    color: #fff;
+}

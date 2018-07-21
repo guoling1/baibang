@@ -1,0 +1,77 @@
+.content{
+    margin: 0.3rem;
+    background: #fff;
+    font-size: 0.3rem;
+}
+.content .title{
+    height: 0.9rem;
+    line-height: 0.9rem;
+    text-align: center;
+}
+.content .payPrice{
+    margin: 0 0.2rem;
+    height: 0.9rem;
+    line-height: 0.9rem;
+    border-radius: 0.08rem;
+    background: #f3f5c9;
+}
+.content .payPrice span{
+    margin: 0 0.2rem;
+}
+.content .payPrice .price{
+    float: right;
+}
+.type_title{
+    margin: 0.4rem 0.2rem 0;
+    height: 0.7rem;
+}
+ul li{
+    height: 1.22rem;
+    border-bottom: 1px solid #e5e5e5;
+
+}
+ul li img{
+    margin: 0 0.25rem 0 0.2rem;
+    width: 0.61rem;
+    height: 0.61rem;
+}
+ul li:nth-child(3) img{
+    width: 0.74rem;
+    height: 0.49rem;
+    margin-right: 0.12rem;
+}
+ul li .middle{
+    display: inline-block;
+    margin-top: 0.18rem;
+}
+ul li span{
+    float: right;
+    margin: 0.42rem 0.2rem 0 0;
+    width: 0.4rem;
+    height: 0.4rem;
+    line-height: 0.4rem;
+    border: 0.05rem solid #00c47e;
+    border-radius: 50%;
+    text-align: center;
+}
+ul li span i{
+    display: none;
+    /*display: inline-block;*/
+    width: 0.2rem;
+    height: 0.2rem;
+    background: #00c47e;
+    border-radius: 50%;
+}
+ul li span i.select{
+    display: inline-block;
+}
+button{
+    margin: 1.2rem 5% 1.2rem;
+    width: 90%;
+    height: 0.82rem;
+    line-height: 0.82rem;
+    background: #00c47d;
+    border-radius: 0.05rem;
+    font-size: 0.4rem;
+    color: #fff;
+}
