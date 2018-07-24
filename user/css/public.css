@@ -15,6 +15,9 @@
     text-align: left;
     width: 2rem;
 }
+.main_header a{
+    color: #fff;
+}
 .main_header .left span{
     vertical-align: top;
 }

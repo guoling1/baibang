@@ -22,7 +22,8 @@ form .item .avatar{
     height: 1.07rem;
     border-radius: 50%;
 }
-form .item input{
+form .item input,form .item span{
+    color: #999;
     float: right;
     text-align: right;
     width: 70%;
@@ -47,6 +48,7 @@ button{
     color: #fff;
 }
 .mask {
+    display: none;
     z-index: 20;
     position: fixed;
     top: 0;
