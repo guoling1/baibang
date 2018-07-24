@@ -1,0 +1,45 @@
+body,.container {
+    background: #fff;
+}
+#decorateHome .select{
+    display: flex;
+    justify-content: space-around;
+    height: 0.94rem;
+    line-height: 0.94rem;
+    border-bottom: 0.01rem solid #f0f0f0;
+}
+#decorateHome .select li{
+    display: inline-block;
+}
+#decorateHome .select .active{
+    color: #f13d25;
+}
+#decorateHome .content li{
+    padding: 0.6rem 0.3rem;
+    border-bottom: 0.01rem solid #f0f0f0;
+}
+#decorateHome .content li .top .title{
+    font-weight: bold;
+}
+#decorateHome .content li .top .right {
+    float: right;
+    margin-top: 0.06rem;
+    font-size: 0.22rem;
+    color: #6f6f6f;
+}
+#decorateHome .content li .middle{
+    margin: 0.2rem 0;
+    width: 6.9rem;
+    height: 3.8rem;
+}
+#decorateHome .content .bottom .left{
+
+}
+#decorateHome .content .bottom .right{
+    float: right;
+    font-size: 0.22rem;
+}
+#decorateHome .content .bottom .right .bespeak{
+    margin-left: 0.1rem;
+    color: #f13d25;
+}

@@ -1,0 +1,71 @@
+.tab{
+    margin: 0.1rem auto 0 ;
+    width: 6.9rem;
+    height: 0.97rem;
+    line-height: 0.97rem;
+    border-radius: 0.5rem;
+    font-size: 0.36rem;
+    color: #999;
+}
+.tab li{
+    float: left;
+    /*margin-left: -1px;*/
+    width: 24.75%;
+    border-right: 1px solid #f5f5f5;
+    background: #fff;
+    text-align: center;
+}
+.tab li:last-child{
+    border-right: 0;
+    border-top-right-radius: 0.08rem;
+    border-bottom-right-radius: 0.08rem;
+}
+.tab li:first-child{
+    border-top-left-radius: 0.08rem;
+    border-bottom-left-radius: 0.08rem;
+}
+.tab li.active{
+    background: #00c47e;
+    color: #fff;
+}
+.orderConfirm {
+    padding-bottom: 0.8rem;
+    margin: 0.1rem auto 0.1rem;
+    width: 6.9rem;
+    background: #fff;
+}
+.orderConfirm .title{
+    padding: 0.38rem 0;
+    height: 0.36rem;
+    text-align: center;
+    font-size: 0.36rem;
+    font-weight: bold;
+}
+.orderConfirm .eval{
+    margin: 0 0.2rem;
+}
+.orderConfirm .eval li {
+    margin-bottom: 0.4rem;
+}
+.orderConfirm .eval li .star{
+    vertical-align: middle;
+    display: inline-block;
+    width: 0.45rem;
+    height: 0.41rem;
+    background: url("../images/nostar.png") no-repeat;
+    background-size: 100% 100%;
+}
+.orderConfirm .eval li .active{
+    background: url("../images/star.png") no-repeat;
+    background-size: 100% 100%;
+}
+button{
+    margin: 0.3rem 5% 0;
+    width: 90%;
+    height: 0.82rem;
+    line-height: 0.82rem;
+    background: #00c47d;
+    border-radius: 0.05rem;
+    font-size: 0.36rem;
+    color: #fff;
+}
