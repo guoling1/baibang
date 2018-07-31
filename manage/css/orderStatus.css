@@ -1,0 +1,47 @@
+body{
+    background: #f0f0f0;
+}
+.top{
+    height: 0.8rem;
+    line-height: 0.8rem;
+    background: #fff;
+}
+.top div{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 49%;
+    font-size: 0.28rem;
+    color: #666;
+}
+.top div.active{
+    color: #333;
+}
+.top div.active i{
+    position: absolute;
+    bottom: 0.16rem;
+    /*display: inline-block;*/
+    width: 0.22rem;
+    height: 0.01rem;
+    background: #333;
+}
+.order li{
+    margin: 0.3rem 0.3rem 0;
+    background: #fff;
+    border-radius: 0.05rem;
+    font-size: 0.28rem;
+}
+.order li .title{
+    padding-left: 0.15rem;
+    height: 0.59rem;
+    line-height: 0.59rem;
+    border-bottom: 0.01rem solid #d4d4d4;
+    font-size: 0.24rem;
+    color: #333;
+}
+.order li .content{
+    padding: 0.15rem;
+}
+.order li .content p{
+    line-height: 0.5rem;
+}

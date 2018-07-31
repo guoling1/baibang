@@ -1,0 +1,91 @@
+body{
+    background: #f0f0f0;
+}
+.container{
+    padding: 1.12rem 0 1rem;
+}
+.container .top{
+    height: 1.47rem;
+    background: #df4d35;
+    font-size: 0.22rem;
+    color: #fff;
+    text-align: center;
+}
+.container .top div{
+    display: inline-block;
+    width: 49%;
+}
+.container .top div .num{
+    margin-bottom: 0.1rem;
+    font-size: 0.48rem;
+    font-weight: bold;
+}
+.content{
+    padding-bottom: 1.2rem;
+    margin: 0.3rem 0.3rem 0;
+    background: #fff;
+}
+.content .title{
+    margin-left: 0.3rem;
+    height: 1rem;
+    line-height: 1rem;
+    font-size: 0.33rem;
+    font-weight: bold;
+}
+.content .item{
+    margin: 0 0.3rem;
+    height: 0.76rem;
+    line-height: 0.76rem;
+}
+.content .item input{
+    margin-right: 0.1rem;
+    background: #f0f0f0;
+    height: 0.52rem;
+    line-height: 0.52rem;
+    border-radius: 0.05rem;
+}
+.content .item button{
+    margin-bottom: 0.64rem;
+    width: 3rem;
+    height: 0.66rem;
+    line-height: 0.66rem;
+    background: #df4d35;
+    color: #fff;
+    border-radius: 0.05rem;
+}
+.shopList{
+    margin: 0.3rem 0;
+}
+ .shopList li{
+    margin-bottom: -0.01rem;
+    padding: 0.24rem 0.2rem;
+    height: 1.18rem;
+    border-top: 1px solid #e5e5e5;
+}
+ .shopList li img{
+    float: left;
+    margin-right: 0.4rem;
+    width: 1.19rem;
+    height: 1.19rem;
+}
+ .shopList li .up .price{
+    float: right;
+    font-size: 0.30rem;
+    color: #333333;
+}
+ .shopList li .bottom{
+    margin-top: 0.35rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.22rem;
+}
+ .confirm{
+     display: inherit;
+     margin: 0 auto;
+     width: 2.4rem;
+     height: 0.7rem;
+     line-height: 0.7rem;
+     border-radius: 0.05rem;
+     background: #df4d35;
+     color: #fff;
+ }

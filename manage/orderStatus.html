@@ -7,23 +7,24 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/public.css">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/orderStatus.css">
 </head>
 <body>
-<div class="main_header1 clear">
-    <div class="left">收工</div>
-    <img src="images/listw.png" alt="" class="right">
+<div class="main_header clear">
+    <img src="images/goback.png" alt="" onclick="goBack()">
+    <div class="title">订单状态</div>
+    <div class="right">注销</div>
 </div>
 
-<div class="container" id="index">
+<div class="container">
     <div class="top">
-        <div class="left">
-            <p class="num">0</p>
-            <p class="name">今日订单</p>
+        <div class="tab active">
+            <p>已支付</p>
+            <i></i>
         </div>
-        <div class="right">
-            <p class="num">198</p>
-            <p class="name">今日提成</p>
+        <div class="tab">
+            <p>未支付</p>
+            <i></i>
         </div>
     </div>
     <ul class="order">
@@ -50,22 +51,9 @@
     </ul>
 </div>
 
-<ul class="footer">
-    <li>
-        <img src="images/tab11.png" alt="">
-        <p class="active">首页</p>
-    </li>
-    <li>
-        <img src="images/tab2.png" alt="">
-        <p>订单列表</p>
-    </li>
-    <li>
-        <img src="images/tab3.png" alt="">
-        <p>个人中心</p>
-    </li>
-</ul>
-
 <script src="js/rem.js"></script>
 <script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/public.js"></script>
+<script src="js/orderDetail.js"></script>
 </body>
 </html>

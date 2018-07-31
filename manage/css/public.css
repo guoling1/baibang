@@ -44,6 +44,7 @@
 }
 .footer li p{
     font-size: 0.22rem;
+    line-height: 0.22rem;
 }
 .footer li p.active{
     color: #df4d35;
