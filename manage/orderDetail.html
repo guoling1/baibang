@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>百邦小跑</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/orderDetail.css">
+</head>
+<body>
+<div class="main_header clear">
+    <img src="images/goback.png" alt="" onclick="goBack()">
+    <div class="title">订单详情</div>
+    <div class="right">注销</div>
+</div>
+
+<div class="container">
+    <div class="custom">
+        <div class="title">客户信息</div>
+        <div class="top">
+            <span>客户姓名：康师傅</span>
+            <span class="phone">158011498585</span>
+        </div>
+        <p>收货地址：河北省邯郸市永年县永建新路大街交叉口 10栋3单元2楼1号</p>
+    </div>
+    <div class="content">
+        <p>甲醛，作为一种对人类最有害的气体，被誉为室内“夺命杀手尤其在中国，严重危害新装修家庭，尤其是儿童、孕妇、老人的身体健康。</p>
+        <img src="images/orderimg.png" alt="">
+        <img src="images/orderimg.png" alt="">
+        <img src="images/orderimg.png" alt="">
+    </div>
+    <div class="bottom">
+        <button class="submit" id="submit">订单确认</button>
+        <button class="contact">联系业主</button>
+    </div>
+
+    <!--确认订单-->
+    <div class="submitMask">
+        <div class="main">
+            <p>是否确认订单</p>
+            <div class="bottom">
+                <button class="submit">放弃订单</button>
+                <button class="contact">确认订单</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="js/rem.js"></script>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/public.js"></script>
+<script src="js/orderDetail.js"></script>
+</body>
+</html>
