@@ -11,7 +11,7 @@
 }
 .container .detail .content{
     /*padding: 0 0.3rem;*/
-
+    margin-top: 0;
 }
 .container .detail .content .job_number{
     height: 0.84rem;
@@ -46,25 +46,25 @@
     margin: 0.4rem 0 0;
     height: 0.7rem;
 }
-ul li{
+.content ul li{
     height: 1.22rem;
     border-bottom: 1px solid #e5e5e5;
 }
-ul li img{
+.content ul li img{
     margin: 0 0.25rem 0 0;
     width: 0.61rem;
     height: 0.61rem;
 }
-ul li:nth-child(3) img{
+.content ul li:nth-child(3) img{
     width: 0.74rem;
     height: 0.49rem;
     margin-right: 0.12rem;
 }
-ul li .middle{
+.content ul li .middle{
     display: inline-block;
     margin-top: 0.18rem;
 }
-ul li span{
+.content ul li span{
     float: right;
     margin: 0.42rem 0.2rem 0 0;
     width: 0.4rem;
@@ -75,7 +75,7 @@ ul li span{
     text-align: center;
     font-size: 0;
 }
-ul li span i{
+.content ul li span i{
     vertical-align: middle;
     display: none;
     /*display: inline-block;*/
@@ -84,7 +84,7 @@ ul li span i{
     background: #ffdd03;
     border-radius: 50%;
 }
-ul li span i.select{
+.content ul li span i.select{
     display: inline-block;
 }
 button{

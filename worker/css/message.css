@@ -1,0 +1,37 @@
+/*消息中心*/
+#message {
+    background: #f0f0f0;
+}
+#message .container ul{
+}
+#message .container ul li{
+    padding: 0 0.3rem;
+    margin-top: 0.1rem;
+    background: #fff;
+    font-size: 0.32rem;
+}
+#message .container ul li .top{
+    height: 0.6rem;
+    line-height: 0.6rem;
+}
+#message .container ul li .top .time{
+    font-size: 0.24rem;
+    color: #999;
+}
+#message .container ul li .top img{
+    float: right;
+    margin-top: 0.14rem;
+    width: 0.24rem;
+}
+#message .container ul li p{
+    line-height: 0.55rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#message .container ul li a{
+    float: right;
+    line-height: 0.55rem;
+    font-size: 0.22rem;
+    color: #666;
+}

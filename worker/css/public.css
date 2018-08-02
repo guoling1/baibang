@@ -97,6 +97,10 @@
     margin-right: 0.3rem;
     font-size: 0.3rem;
 }
+.container{
+    padding: 0.9rem 0 1rem;
+    font-size: 0.3rem;
+}
 /*tab*/
 .footer{
     display: flex;
