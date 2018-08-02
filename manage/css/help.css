@@ -1,0 +1,25 @@
+body{
+    background: #f0f0f0;
+    font-size: 0.19rem;
+}
+ .container ul{
+    margin-top: 0.3rem;
+    padding: 0 0.3rem;
+    background: #fff;
+    font-size: 0.36rem;
+}
+ .container ul li:nth-child(1){
+    border: none;
+}
+ .container ul li{
+    border-top: 1px solid #f0f0f0;
+    height: 1.2rem;
+    line-height: 1.2rem;
+}
+ .container ul li img{
+    display: inline-block;
+    margin-right: 0.25rem;
+    width: 0.45rem;
+     height: auto;
+    vertical-align: middle;
+}

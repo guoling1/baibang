@@ -2,18 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0559016d-03bb-4bc5-b3a3-de148a2cc9a4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/manage/css/extract.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage/css/message.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage/css/my.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage/css/orderList.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage/css/setting.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage/extract.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage/message.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage/my.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage/orderList.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage/setting.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manage/changePwd.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manage/css/changePwd.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manage/css/help.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manage/css/payType.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manage/css/selectAddress.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manage/css/selectWork.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manage/help.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manage/js/payType.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manage/payType.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manage/selectAddress.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manage/selectWork.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage/css/orderStatus.css" beforeDir="false" afterPath="$PROJECT_DIR$/manage/css/orderStatus.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage/message.html" beforeDir="false" afterPath="$PROJECT_DIR$/manage/message.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,48 +28,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="setting.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/manage/setting.html">
+      <file leaf-file-name="help.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manage/help.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="41" selection-start-line="41" selection-end-line="54" selection-end-column="5" />
+            <state relative-caret-position="343">
+              <caret line="49" selection-start-line="49" selection-end-line="64" selection-end-column="36" />
               <folding>
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#ul#0;n#body#0;n#html#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="message.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/manage/message.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="22" column="51" lean-forward="true" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
-              <folding>
-                <element signature="n#ul#0;n#body#0;n#html#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="message.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/manage/css/message.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="my.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/manage/my.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="66" selection-start-line="66" selection-end-line="68" selection-end-column="36" />
-              <folding>
-                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#ul#0;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
@@ -78,17 +44,61 @@
       <file leaf-file-name="css.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/worker/css/css.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="187" column="1" lean-forward="true" selection-start-line="155" selection-start-column="9" selection-end-line="187" selection-end-column="1" />
+            <state relative-caret-position="543">
+              <caret line="349" column="1" lean-forward="true" selection-start-line="325" selection-end-line="349" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="setting.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/manage/css/setting.css">
+      <file leaf-file-name="help.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manage/css/help.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+            <state relative-caret-position="268">
+              <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="changePwd.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manage/changePwd.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="343">
+              <caret line="37" selection-start-line="37" selection-end-line="52" selection-end-column="36" />
+              <folding>
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#ul#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="payType.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manage/payType.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="43">
+              <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+              <folding>
+                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#ul#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="payType.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/manage/css/payType.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="95" column="23" selection-start-line="95" selection-start-column="23" selection-end-line="95" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="payType.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manage/js/payType.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="4" column="2" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -124,16 +134,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/user/js/orderList.js" />
-        <option value="$PROJECT_DIR$/user/evaluate.html" />
-        <option value="$PROJECT_DIR$/user/orderList.html" />
-        <option value="$PROJECT_DIR$/user/css/decorateWrite.css" />
-        <option value="$PROJECT_DIR$/user/js/decorateWrite.js" />
-        <option value="$PROJECT_DIR$/user/decorateConfirm.html" />
-        <option value="$PROJECT_DIR$/user/js/decorateConfirm.js" />
-        <option value="$PROJECT_DIR$/user/payType.html" />
-        <option value="$PROJECT_DIR$/user/js/payType.js" />
-        <option value="$PROJECT_DIR$/user/js/priceLevel.js" />
         <option value="$PROJECT_DIR$/user/priceLevel.html" />
         <option value="$PROJECT_DIR$/user/decorateWrite.html" />
         <option value="$PROJECT_DIR$/user/decorateDetail.html" />
@@ -173,8 +173,18 @@
         <option value="$PROJECT_DIR$/manage/my.html" />
         <option value="$PROJECT_DIR$/manage/css/setting.css" />
         <option value="$PROJECT_DIR$/manage/setting.html" />
-        <option value="$PROJECT_DIR$/manage/message.html" />
         <option value="$PROJECT_DIR$/manage/css/message.css" />
+        <option value="$PROJECT_DIR$/manage/message.html" />
+        <option value="$PROJECT_DIR$/manage/selectAddress.html" />
+        <option value="$PROJECT_DIR$/manage/css/selectAddress.css" />
+        <option value="$PROJECT_DIR$/manage/selectWork.html" />
+        <option value="$PROJECT_DIR$/manage/css/selectWork.css" />
+        <option value="$PROJECT_DIR$/manage/help.html" />
+        <option value="$PROJECT_DIR$/manage/css/help.css" />
+        <option value="$PROJECT_DIR$/manage/changePwd.html" />
+        <option value="$PROJECT_DIR$/manage/css/changePwd.css" />
+        <option value="$PROJECT_DIR$/manage/payType.html" />
+        <option value="$PROJECT_DIR$/manage/css/payType.css" />
       </list>
     </option>
   </component>
@@ -187,10 +197,10 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="654" />
-    <option name="y" value="27" />
-    <option name="width" value="1466" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="489" />
+    <option name="y" value="12" />
+    <option name="width" value="1298" />
     <option name="height" value="1005" />
   </component>
   <component name="ProjectView">
@@ -220,6 +230,12 @@
             <path>
               <item name="baibang" type="b2602c69:ProjectViewProjectNode" />
               <item name="baibang" type="462c0819:PsiDirectoryNode" />
+              <item name="manage" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="baibang" type="b2602c69:ProjectViewProjectNode" />
+              <item name="baibang" type="462c0819:PsiDirectoryNode" />
               <item name="worker" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -227,6 +243,12 @@
               <item name="baibang" type="462c0819:PsiDirectoryNode" />
               <item name="worker" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="baibang" type="b2602c69:ProjectViewProjectNode" />
+              <item name="baibang" type="462c0819:PsiDirectoryNode" />
+              <item name="worker" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -248,10 +270,10 @@
       <recent name="C:\Users\hk\Desktop\baibang\worker\images" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hk\Desktop\baibang\manage\js" />
       <recent name="C:\Users\hk\Desktop\baibang\manage\css" />
       <recent name="C:\Users\hk\Desktop\baibang\manage" />
       <recent name="C:\Users\hk\Desktop\baibang\manage\images" />
-      <recent name="C:\Users\hk\Desktop\baibang\manage\js" />
       <recent name="C:\Users\hk\Desktop\baibang\worker\js" />
     </key>
   </component>
@@ -287,7 +309,7 @@
       <workItem from="1532502587039" duration="4113000" />
       <workItem from="1532842463241" duration="6841000" />
       <workItem from="1533000635644" duration="19369000" />
-      <workItem from="1533180870302" duration="8668000" />
+      <workItem from="1533180870302" duration="13128000" />
     </task>
     <task id="LOCAL-00001" summary="zhuce">
       <created>1531387866661</created>
@@ -387,17 +409,24 @@
       <option name="project" value="LOCAL" />
       <updated>1533030003886</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="管理部分页面">
+      <created>1533196139688</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1533196139688</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="152357000" />
+    <option name="totallyTimeSpent" value="156817000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="683" y="12" width="1298" height="1005" extended-state="0" />
+    <frame x="489" y="12" width="1298" height="1005" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12619048" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22380953" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
@@ -433,104 +462,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="管理部分页面" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/worker/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="18" column="47" lean-forward="true" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/worker/help.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/worker/changePwd.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/worker/selectWork.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="48" lean-forward="true" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/payType.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/worker/css/payType.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/worker/js/payType.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manage/regist.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="57" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/worker/regist.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="15" column="55" lean-forward="true" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manage/css/login.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="641">
-          <caret line="99" selection-start-line="99" selection-end-line="99" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/worker/css/public.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="114" selection-start-line="114" selection-end-line="117" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/css/public.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manage/css/personCenter.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="52" column="23" lean-forward="true" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manage/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" column="114" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="5" selection-end-column="114" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/manage/css/reset.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1350" />
@@ -590,13 +521,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/manage/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/manage/orderStatus.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -612,24 +536,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="24" column="19" lean-forward="true" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/worker/payType.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="35" column="26" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="26" />
-          <folding>
-            <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/worker/selectAddress.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -783,13 +689,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/manage/css/extract.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="743">
-          <caret line="77" column="18" selection-start-line="77" selection-start-column="18" selection-end-line="77" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/manage/extract.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="143">
@@ -818,13 +717,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/worker/css/css.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="187" column="1" lean-forward="true" selection-start-line="155" selection-start-column="9" selection-end-line="187" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/manage/my.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
@@ -837,20 +729,178 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/manage/message.html">
+    <entry file="file://$PROJECT_DIR$/worker/selectAddress.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="22" column="51" lean-forward="true" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
-          <folding>
-            <element signature="n#ul#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="275">
+          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/manage/css/message.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+        <state relative-caret-position="225">
+          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/message.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="37" selection-start-line="37" selection-end-line="52" selection-end-column="36" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#ul#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/css/selectAddress.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="39" column="19" lean-forward="true" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/css/extract.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1925">
+          <caret line="77" column="18" selection-start-line="77" selection-start-column="18" selection-end-line="77" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/worker/selectWork.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/selectAddress.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="45" selection-start-line="45" selection-end-line="60" selection-end-column="36" />
+          <folding>
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#ul#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/css/selectWork.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="36" column="9" lean-forward="true" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/worker/help.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/selectWork.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="31" selection-start-line="31" selection-end-line="46" selection-end-column="36" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#ul#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/worker/changePwd.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/help.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="49" selection-start-line="49" selection-end-line="64" selection-end-column="36" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#ul#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/css/help.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/worker/css/css.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="543">
+          <caret line="349" column="1" lean-forward="true" selection-start-line="325" selection-end-line="349" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/css/changePwd.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="23" column="24" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/worker/payType.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="46" column="36" lean-forward="true" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
+          <folding>
+            <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/js/payType.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="2" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/changePwd.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="37" selection-start-line="37" selection-end-line="52" selection-end-column="36" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#ul#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/payType.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+          <folding>
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#ul#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/css/payType.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="95" column="23" selection-start-line="95" selection-start-column="23" selection-end-line="95" selection-end-column="23" />
         </state>
       </provider>
     </entry>

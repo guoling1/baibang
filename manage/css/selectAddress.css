@@ -1,0 +1,69 @@
+body{
+    background: #f0f0f0;
+    font-size: 0.19rem;
+}
+.container{
+    padding: 1.2rem 0.3rem 0;
+    background: #f0f0f0;
+    font-size: 0.19rem;
+}
+.top{
+    border-bottom: 1px solid #f0f0f0;
+}
+.top,.bottom{
+    padding: 0 0.2rem 0.6rem;
+    background: #fff;
+}
+.title{
+    line-height: 0.54rem;
+}
+.top .title img{
+    float: right;
+    margin-top: 0.14rem;
+    width: 0.18rem;
+    height: auto;
+}
+.search{
+    background: #f0f0f0;
+    border-radius: 0.25rem;
+    height: 0.5rem;
+    line-height: 0.5rem;
+}
+.top .search input{
+    margin-left: 0.25rem;
+    width: 80%;
+    height: 100%;
+}
+.search img{
+    float: right;
+    margin: 0.1rem 0.2rem;
+    width: 0.34rem;
+    height: auto;
+}
+.top ul li{
+    float: left;
+    display: inline-block;
+    margin-right: 0.3rem;
+    margin-top: 0.28rem;
+    padding: 0 0.44rem;
+    line-height: 0.62rem;
+    background: #f0f0f0;
+    border-radius: 0.31rem;
+    font-size: 0.32rem;
+    color: #696969;
+}
+.top ul li.active{
+    color: #df4d35;
+}
+.bottom .button{
+    text-align: center;
+}
+.bottom button{
+    margin: 0.8rem 0;
+    width: 2.24rem;
+    height: 0.75rem;
+    border-radius: 4px;
+    background: #df4d35;
+    font-size: 0.36rem;
+    color: #fff;
+}

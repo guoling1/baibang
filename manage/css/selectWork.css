@@ -1,0 +1,48 @@
+body{
+    background: #f0f0f0;
+    font-size: 0.19rem;
+}
+.container{
+    padding: 1.2rem 0.3rem 0;
+    background: #f0f0f0;
+    font-size: 0.26rem;
+}
+ .top{
+    padding: 0 0.2rem 0.34rem;
+    background: #fff;
+}
+ .title{
+    font-size: 0.24rem;
+    line-height: 0.54rem;
+}
+ .top .title img{
+    float: right;
+    margin-top: 0.14rem;
+    width: 0.18rem;
+}
+ .top ul li{
+    float: left;
+    display: inline-block;
+    margin-right: 0.3rem;
+    margin-top: 0.28rem;
+    padding: 0 0.24rem;
+    line-height: 0.5rem;
+    background: #f0f0f0;
+    border-radius: 5px;
+    color: #696969;
+}
+ .top ul li.active{
+    color: #df4d35;
+}
+ .button{
+    text-align: center;
+}
+ button{
+    margin: 1.8rem 0 0;
+    width: 2.24rem;
+    height: 0.75rem;
+    border-radius: 4px;
+    background: #df4d35;
+    font-size: 0.36rem;
+    color: #fff;
+}
