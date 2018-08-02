@@ -19,10 +19,11 @@ body{
 }
 .top div.active i{
     position: absolute;
-    bottom: 0.16rem;
+    bottom: 0.1rem;
+    left: 48%;
     /*display: inline-block;*/
     width: 0.22rem;
-    height: 0.01rem;
+    height: 1px;
     background: #333;
 }
 .order li{

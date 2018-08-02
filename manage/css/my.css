@@ -1,0 +1,40 @@
+body{
+    background: #f0f0f0;
+}
+.container .top{
+    margin-top: 0.1rem;
+    display: flex;
+    justify-content: space-around;
+    background: #fff;
+}
+.container .top div{
+    text-align: center;
+    height: 2.38rem;
+    width: 49%;
+    font-size: 0.3rem;
+}
+.container .top div:nth-child(1){
+    width: 50%;
+    border-right: 1px solid #f0f0f0;
+}
+.container .top div .num{
+    margin: 0.6rem 0 0.25rem;
+    font-size: 0.48rem;
+    font-weight: bold;
+}
+ .container ul{
+    background: #fff;
+    font-size: 0.3rem;
+}
+ .container ul li{
+    padding: 0 0.3rem;
+    border-top: 1px solid #f0f0f0;
+    height: 1.48rem;
+    line-height: 1.48rem;
+}
+.container ul li img{
+    float: right;
+    margin-top: 0.56rem;
+    height: 0.35rem;
+    width: auto;
+}
