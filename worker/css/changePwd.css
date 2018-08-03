@@ -1,0 +1,29 @@
+/*修改密码*/
+#changePwd {
+    background: #f0f0f0;
+}
+#changePwd .container ul{
+    margin-top: 0.1rem;
+    padding: 0 0.3rem;
+    background: #fff;
+    font-size: 0.36rem;
+}
+#changePwd .container ul li{
+    border-bottom: 1px solid #f0f0f0;
+    height: 1.04rem;
+    line-height: 1.04rem;
+}
+
+#changePwd .bottom{
+    padding: 0.8rem 0.3rem;
+    background: #fff;
+}
+#changePwd button{
+    width: 100%;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    border-radius: 0.4rem;
+    background: #ffdd03;
+    color: #fff;
+
+}
