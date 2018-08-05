@@ -68,6 +68,12 @@ body{
     float: right;
     font-size: 0.22rem;
 }
+.order li .content div .right.toAddress{
+    border-bottom:1px dashed #666;
+    line-height: 0.4rem;
+    font-size: 0.2rem;
+    color: #666;
+}
 .order li .content div .right.price{
     font-size: 0.26rem;
 }

@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0559016d-03bb-4bc5-b3a3-de148a2cc9a4" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/worker/order.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/worker/confirmOffer.html" beforeDir="false" afterPath="$PROJECT_DIR$/worker/confirmOffer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/worker/css/orderList.css" beforeDir="false" afterPath="$PROJECT_DIR$/worker/css/orderList.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/worker/css/setting.css" beforeDir="false" afterPath="$PROJECT_DIR$/worker/css/setting.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/worker/orderList.html" beforeDir="false" afterPath="$PROJECT_DIR$/worker/orderList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/worker/setting.html" beforeDir="false" afterPath="$PROJECT_DIR$/worker/setting.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -15,45 +21,83 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="confirmOffer.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/worker/confirmOffer.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-200">
-              <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
-              <folding>
-                <element signature="n#div#2;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#3;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#4;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#ul#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="orderList.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/worker/orderList.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="26" column="14" lean-forward="true" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="extract.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/worker/extract.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="22" column="10" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
-              <folding>
-                <element signature="n#li#0;n#ul#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#ul#0;n#body#0;n#html#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="confirmOffer.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/worker/confirmOffer.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="200">
+                  <caret line="78" column="14" lean-forward="true" selection-start-line="78" selection-start-column="14" selection-end-line="78" selection-end-column="14" />
+                  <folding>
+                    <element signature="n#div#2;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#3;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#4;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#ul#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="setting.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/worker/setting.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="375">
+                  <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
+                  <folding>
+                    <element signature="n#ul#0;n#body#0;n#html#0;n#!!top" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="setting.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/worker/css/setting.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="550">
+                  <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="order.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/worker/order.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="405">
+                  <caret line="50" column="42" selection-start-line="50" selection-start-column="42" selection-end-line="50" selection-end-column="42" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="extract.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/worker/extract.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="93">
+                  <caret line="9" column="50" lean-forward="true" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
+                  <folding>
+                    <element signature="n#li#0;n#ul#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#ul#0;n#body#0;n#html#0;n#!!top" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="orderList.css" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/worker/css/orderList.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="443">
+                  <caret line="72" column="23" selection-start-line="72" selection-start-column="23" selection-end-line="72" selection-end-column="23" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -86,7 +130,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/manage/confirmOffer.html" />
         <option value="$PROJECT_DIR$/manage/css/confirmOffer.css" />
         <option value="$PROJECT_DIR$/manage/index.html" />
         <option value="$PROJECT_DIR$/manage/css/orderStatus.css" />
@@ -112,7 +155,6 @@
         <option value="$PROJECT_DIR$/manage/payType.html" />
         <option value="$PROJECT_DIR$/manage/css/payType.css" />
         <option value="$PROJECT_DIR$/worker/css/payType.css" />
-        <option value="$PROJECT_DIR$/worker/css/setting.css" />
         <option value="$PROJECT_DIR$/worker/css/message.css" />
         <option value="$PROJECT_DIR$/worker/message.html" />
         <option value="$PROJECT_DIR$/worker/css/selectAddress.css" />
@@ -125,18 +167,20 @@
         <option value="$PROJECT_DIR$/worker/css/extract.css" />
         <option value="$PROJECT_DIR$/manage/css/public.css" />
         <option value="$PROJECT_DIR$/worker/css/public.css" />
-        <option value="$PROJECT_DIR$/worker/orderList.html" />
-        <option value="$PROJECT_DIR$/worker/css/orderList.css" />
         <option value="$PROJECT_DIR$/worker/confirm.html" />
-        <option value="$PROJECT_DIR$/worker/confirmOffer.html" />
         <option value="$PROJECT_DIR$/worker/css/confirmOffer.css" />
         <option value="$PROJECT_DIR$/worker/regist.html" />
         <option value="$PROJECT_DIR$/worker/css/regist.css" />
         <option value="$PROJECT_DIR$/worker/login.html" />
         <option value="$PROJECT_DIR$/worker/my.html" />
-        <option value="$PROJECT_DIR$/worker/setting.html" />
         <option value="$PROJECT_DIR$/worker/selectAddress.html" />
         <option value="$PROJECT_DIR$/worker/changePwd.html" />
+        <option value="$PROJECT_DIR$/worker/orderList.html" />
+        <option value="$PROJECT_DIR$/worker/css/orderList.css" />
+        <option value="$PROJECT_DIR$/worker/order.html" />
+        <option value="$PROJECT_DIR$/worker/confirmOffer.html" />
+        <option value="$PROJECT_DIR$/worker/css/setting.css" />
+        <option value="$PROJECT_DIR$/worker/setting.html" />
       </list>
     </option>
   </component>
@@ -150,8 +194,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="534" />
-    <option name="y" value="18" />
+    <option name="x" value="707" />
+    <option name="y" value="40" />
     <option name="width" value="1466" />
     <option name="height" value="1005" />
   </component>
@@ -160,7 +204,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -183,6 +226,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -193,17 +237,17 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\hk\Desktop\baibang\worker\images" />
-      <recent name="C:\Users\hk\Desktop\baibang\worker\js" />
-      <recent name="C:\Users\hk\Desktop\baibang\worker\css" />
-      <recent name="C:\Users\hk\Desktop\baibang\worker" />
-      <recent name="C:\Users\hk\Desktop\baibang\manage\js" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\hk\Desktop\baibang\user\js" />
       <recent name="C:\Users\hk\Desktop\baibang\user\images" />
       <recent name="C:\Users\hk\Desktop\baibang\worker\images" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hk\Desktop\baibang\worker" />
+      <recent name="C:\Users\hk\Desktop\baibang\worker\images" />
+      <recent name="C:\Users\hk\Desktop\baibang\worker\js" />
+      <recent name="C:\Users\hk\Desktop\baibang\worker\css" />
+      <recent name="C:\Users\hk\Desktop\baibang\manage\js" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -239,7 +283,8 @@
       <workItem from="1532842463241" duration="6841000" />
       <workItem from="1533000635644" duration="19369000" />
       <workItem from="1533180870302" duration="25041000" />
-      <workItem from="1533373948952" duration="1552000" />
+      <workItem from="1533373948952" duration="1590000" />
+      <workItem from="1533429879070" duration="1131000" />
     </task>
     <task id="LOCAL-00001" summary="zhuce">
       <created>1531387866661</created>
@@ -388,21 +433,27 @@
       <option name="project" value="LOCAL" />
       <updated>1533375496560</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="工人">
+      <created>1533375506255</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1533375506255</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="170282000" />
+    <option name="totallyTimeSpent" value="171451000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="534" y="18" width="1466" height="1005" extended-state="0" />
+    <frame x="707" y="40" width="1466" height="1005" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12745099" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Version Control" order="9" visible="true" weight="0.21362586" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -415,6 +466,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -436,13 +488,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="工人" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/worker/css/css.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="543">
-          <caret line="349" column="1" lean-forward="true" selection-start-line="325" selection-end-line="349" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/manage/css/changePwd.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="318">
@@ -491,13 +536,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/worker/css/my.css">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/worker/css/setting.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/worker/css/message.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -595,13 +633,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/worker/css/orderList.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="29" column="24" lean-forward="true" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/manage/orderStatus.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
@@ -675,19 +706,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-          <folding>
-            <element signature="n#ul#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/worker/setting.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-          <folding>
-            <element signature="n#ul#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -695,10 +713,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="455">
           <caret line="47" column="36" lean-forward="true" selection-start-line="31" selection-end-line="47" selection-end-column="36" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#ul#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -706,9 +720,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="293">
           <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
-          <folding>
-            <element signature="n#ul#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -716,10 +727,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="12" selection-start-line="12" selection-end-line="16" selection-end-column="6" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#ul#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -727,9 +734,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
           <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-          <folding>
-            <element signature="n#ul#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -737,9 +741,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-          <folding>
-            <element signature="n#ul#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -754,18 +755,45 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="605">
           <caret line="80" selection-start-line="80" selection-end-line="82" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/worker/extract.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="9" column="50" lean-forward="true" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
           <folding>
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#0;n#ul#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#ul#0;n#body#0;n#html#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/worker/orderList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="53" column="48" selection-start-line="53" selection-start-column="48" selection-end-line="53" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/worker/css/orderList.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="72" column="23" selection-start-line="72" selection-start-column="23" selection-end-line="72" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/worker/order.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="50" column="42" selection-start-line="50" selection-start-column="42" selection-end-line="50" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/worker/confirmOffer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-200">
-          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+        <state relative-caret-position="200">
+          <caret line="78" column="14" lean-forward="true" selection-start-line="78" selection-start-column="14" selection-end-line="78" selection-end-column="14" />
           <folding>
             <element signature="n#div#2;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#3;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
@@ -775,19 +803,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/worker/orderList.html">
+    <entry file="file://$PROJECT_DIR$/worker/css/setting.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="26" column="14" lean-forward="true" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+        <state relative-caret-position="550">
+          <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/worker/extract.html">
+    <entry file="file://$PROJECT_DIR$/worker/setting.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="10" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+        <state relative-caret-position="375">
+          <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
           <folding>
-            <element signature="n#li#0;n#ul#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#ul#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
