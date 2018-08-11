@@ -1,0 +1,78 @@
+body,.container {
+    background: #fff;
+}
+.top{
+    height: 0.8rem;
+    line-height: 0.8rem;
+    background: #fff;
+}
+.top div{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 49%;
+    font-size: 0.28rem;
+    font-weight: bold;
+    color: #000;
+}
+.top div.active{
+    color: #00c47e;
+}
+.top div.active i{
+    position: absolute;
+    bottom: 0.1rem;
+    left: 48%;
+    /*display: inline-block;*/
+    width: 0.22rem;
+    height: 2px;
+    background: #00c47e;
+}
+.strategy_list{
+    padding: 0 0.3rem 0.3rem;
+    background: #fff;
+}
+.strategy_list li{
+    padding: 0.29rem 0;
+    border-bottom: 1px solid #d6d6d6;
+}
+.strategy_list li .left{
+    float: left;
+    margin-right: 0.21rem;
+    width: 2.2rem;
+    height: 2.1rem;
+}
+.strategy_list li .right{
+    height: 2.1rem;
+}
+.shop .right .des{
+    margin-top: 0.15rem;
+}
+.shop .right .price{
+    margin-top: 0.26rem;
+    font-size: 0.32rem;
+    font-weight: bold;
+    color: #000;
+}
+.strategy_list li .right .recommend_title{
+    font-size: 0.32rem;
+    font-weight: bold;
+}
+.strategy_list li .right .des{
+    font-size: 0.24rem;
+    color: #666;
+    line-height: 0.4rem;
+}
+.strategy_list li .right .time{
+    line-height: 0.5rem;
+    font-size: 0.2rem;
+    color: #666;
+}
+.strategy_list li .right img{
+    vertical-align: middle;
+    width: 0.22rem;
+    height: 0.22rem;
+}
+.strategy_list li .right span{
+    font-size: 0.2rem;
+    color: #284179;
+}
