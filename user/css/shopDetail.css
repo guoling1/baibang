@@ -1,0 +1,182 @@
+/*首页*/
+#index .swiper-container{
+    height: 6.7rem;
+    /*background: #ffdd03;*/
+}
+#index .swiper-container img{
+    width: 100%;
+}
+.shopTop{
+    margin-bottom: 0.2rem;
+    padding: 0.15rem 0.4rem 0.4rem;
+    background: #fff;
+    text-align: center;
+}
+.shopTop .title{
+    font-size: 0.32rem;
+    font-weight: bold;
+    line-height: 0.65rem;
+}
+.shopTop .nowPrice,.shopTop .oldPrice{
+    display: inline-block;
+    font-size: 0.26rem;
+    font-weight: bold;
+}
+.shopTop .nowPrice span{
+    font-size: 0.38rem;
+    color: #fc3a79;
+}
+.shopTop .oldPrice span{
+    text-decoration:line-through
+}
+.middle{
+    margin-bottom: 0.2rem;
+    padding: 0.25rem 0 0.25rem;
+    background: #fff;
+    text-align: center;
+    font-size: 0.26rem;
+}
+.middle .middleTop{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0.56rem;
+    font-size: 0.23rem;
+}
+.middle .middleBottom span{
+    color: #999;
+}
+.detail{
+    background: #fff;
+}
+.detail .subject{
+    padding: 0.25rem 0 0.5rem;
+    text-align: center;
+}
+.detail .subject i{
+    display: inline-block;
+    width: 40px;
+    height: 3px;
+    vertical-align: super;
+}
+.detail .subject i:nth-child(1){
+    background-image: url("../images/lineleft.png");
+    background-size: 40px 3px;
+}
+.detail .subject i:nth-child(3){
+    background-image: url("../images/lineright.png");
+    background-size: 40px 3px;
+}
+.detail .detailCon{
+    font-size: 0;
+}
+.detailBottom{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 0.88rem;
+    line-height: 0.88rem;
+    text-align: center;
+    background: #fff;
+}
+.detailBottom div{
+    display: inline-block;
+    width: 49%;
+
+}
+.detailBottom .buy{
+    background: #00c47e;
+    color: #fff;
+}
+.mask{
+    display: none;
+    z-index: 20;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+}
+.showFormat{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #fff;
+}
+.showFormat .top{
+    position: relative;
+    border-bottom: 1px solid #d7d7d7;
+    text-align:left;
+}
+.showFormat .top .close{
+    position: absolute;
+    right: 0.2rem;
+    top: 0.2rem;
+}
+.showFormat .top .close img{
+    width: 0.35rem;
+    height: 0.35rem;
+}
+.showFormat .top img.shopImg{
+    position: absolute;
+    top:-0.4rem;
+    display: inline-block;
+    margin: 0 0.3rem 0 0.2rem;
+    width: 2.40rem;
+    height: 2.40rem;
+    border: 1px solid #999999;
+    border-radius: 4px;
+}
+.showFormat .top .right{
+    margin-left: 2.8rem;
+    display: inline-block;
+    font-size: 0.24rem;
+}
+.showFormat .top .right p:nth-child(2){
+    margin: 0.3rem 0 0.2rem;
+}
+.showFormat .top .right p:nth-child(3){
+    margin-bottom: 0.2rem;
+}
+.showFormat .top .right .price{
+    padding-top: 0.5rem;
+    font-size: 0.37rem;
+    color: #fc3a79;
+}
+.showFormat ul{
+    padding:0 10px;
+    text-align: left;
+}
+.showFormat li .subject{
+    margin: 0.28rem 0 0;
+    font-size: 0.28rem;
+}
+.showFormat li span{
+    display: inline-block;
+    margin-top: 0.28rem;
+    text-align: center;
+    width: 1.64rem;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    background: #f6f6f6;
+    font-size: 0.24rem;
+    margin-right: 0.3rem;
+    border-radius: 4px;
+}
+.showFormat li span.active{
+    background: #00c47d;
+    color: #fff;
+}
+.showFormat .taocan span{
+    width: auto;
+    padding: 0 0.2rem;
+}
+.showFormat .button{
+    text-align: center;
+    width: 100%;
+    margin-top: 0.92rem;
+    height: 0.88rem;
+    line-height: 0.88rem;
+    background: #00c47d;
+    color: #fff;
+    font-size: 0.28rem;
+}
