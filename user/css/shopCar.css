@@ -1,0 +1,160 @@
+body,.container{
+    background: #fff;
+}
+
+.order{
+
+}
+ .order_title{
+    padding: 0 0.2rem;
+    height: 0.85rem;
+    line-height: 0.85rem;
+    background: #fff;
+}
+ .select{
+    display: inline-block;
+    vertical-align: middle;
+    width: 0.28rem;
+    height: 0.28rem;
+    background: url("../images/selectno.png") no-repeat;
+    background-size: 0.28rem 0.28rem;
+}
+ .select.active{
+    background: url("../images/select1.png") no-repeat;
+    background-size: 0.28rem 0.28rem;
+}
+.order_title .title{
+    font-size: 0.26rem;
+    color: #000;
+    font-weight: bold;
+    /*border-left: 0.02rem solid #00c47d;*/
+}
+ .order_title .right{
+    float: right;
+    font-size: 0.24rem;
+    color: #333;
+}
+ .order_title .right img{
+    margin-left: 0.08rem;
+    width: 0.12rem;
+    height: 0.2rem;
+}
+.order .shopList{
+    border-bottom: 1px solid #f6f6f6;
+}
+
+.order .shopList li{
+    margin-bottom: 0.2rem;
+    /*height: 2.2rem;*/
+    padding: 0.2rem;
+    background: #f6f6f6;
+}
+.order .shopList .left{
+    display: inline-block;
+    vertical-align: middle;
+    width: 1.8rem;
+    height: 1.8rem;
+}
+.order .shopList .left img{
+
+}
+.order .shopList .middle{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 0.3rem;
+    width: 3.9rem;
+}
+.order .shopList .middle .title{
+    font-size: 0.26rem;
+    font-weight: bold;
+    color: #000;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    display:-webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:2;
+}
+.order .shopList .middle .color{
+    margin: 0.15rem 0;
+    font-size: 0.24rem;
+    color: #999;
+}
+.order .shopList .middle .price{
+    font-size: 0.26rem;
+    color: #ff3e3b;
+}
+.order .shopList li .right{
+    float: right;
+    margin-top: -0.5rem;
+    font-size: 0;
+
+}
+.order .shopList li .right .minus{
+    font-size: 0.34rem;
+    display: inline-block;
+    text-align: center;
+    width: 0.48rem;
+    height: 0.48rem;
+    line-height: 0.48rem;
+    border: 0.01rem solid #d7d7d7;
+    border-right: none;
+    border-bottom-left-radius: 0.05rem;
+    border-top-left-radius: 0.05rem;
+}
+.order .shopList li .right .add{
+    font-size: 0.34rem;
+    display: inline-block;
+    text-align: center;
+    width: 0.48rem;
+    height: 0.48rem;
+    line-height: 0.48rem;
+    border: 0.01rem solid #d7d7d7;
+    border-left: none;
+    border-bottom-right-radius: 0.05rem;
+    border-top-right-radius: 0.05rem;
+}
+.order .shopList li .right input{
+    vertical-align: bottom;
+    font-size: 0.34rem;
+    display: inline-block;
+    text-align: center;
+    width: 0.68rem;
+    height: 0.48rem;
+    line-height: 0.48rem;
+    border: 0.01rem solid #d7d7d7;
+}
+.footer .foot_total{
+    display: inline-block;
+    margin-right: 0.4rem;
+    width: 4.8rem;
+    line-height: 1rem;
+    text-align: right;
+    font-size: 0.24rem;
+    font-weight: bold;
+}
+
+.clearCar{
+    display: none;
+}
+.footer.clearCar .foot_total{
+    background: #4e4e4e;
+    text-align: center;
+    color: #fff;
+    margin-right: 0;
+    width: 50%;
+}
+.footer.clearCar .pay{
+    width: 50%;
+}
+.footer .foot_total span{
+    color: #fc3a79;
+    font-size: 0.28rem;
+}
+.footer .pay{
+    float: right;
+    width: 2.7rem;
+    line-height: 1rem;
+    text-align: center;
+    color: #fff;
+    background: #00c47d;
+}
