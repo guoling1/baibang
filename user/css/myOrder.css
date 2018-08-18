@@ -1,0 +1,38 @@
+
+li{
+    margin-top: 0.2rem;
+    padding: 0.2rem;
+    background: #fff;
+}
+li .top .time{
+    font-size: 0.22rem;
+}
+li .top .price{
+    float: right;
+    font-size: 0.28rem;
+    color: #fc3a79;
+}
+li .shop{
+    padding: 0.5rem 0;
+}
+li .shop img{
+    width: 2.25rem;
+    height: 2.25rem;
+    border:1px solid #d7d7d7;
+    border-radius: 2px;
+}
+li .bottom{
+    font-size: 0.26rem;
+    height: 0.53rem;
+    line-height: 0.53rem;
+}
+li .bottom .pay{
+    float: right;
+    width: 1.66rem;
+    height: 0.53rem;
+    line-height: 0.53rem;
+    background: #00c47d;
+    color: #fff;
+    text-align: center;
+    border-radius: 0.04rem;
+}
