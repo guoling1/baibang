@@ -1,0 +1,172 @@
+body,.container{
+    background: #fff;
+}
+.buyer{
+    border-bottom: 0.2rem solid #f6f6f6;
+}
+.buyer .buyer_title{
+    padding: 0 0.2rem;
+    height: 0.6rem;
+    line-height: 0.6rem;
+    font-size: 0.26rem;
+    font-weight: bold;
+    background: #f6f6f6;
+}
+.buyer .right{
+    float: right;
+    width: 0.6rem;
+    text-align: right;
+}
+.buyer .right img{
+    width: 0.12rem;
+    height: 0.2rem;
+}
+.buyer .buyer_content{
+    padding: 0 0.2rem;
+}
+.buyer .buyer_content .content_top{
+    height: 0.78rem;
+    line-height: 0.78rem;
+    font-size: 0.32rem;
+    font-weight: bold;
+}
+.buyer .buyer_content .content_top .phone{
+    float: right;
+}
+.buyer .buyer_content .address{
+    padding-bottom: 0.25rem;
+    font-size: 0.28rem;
+    color: #666;
+}
+.order{
+
+}
+ .order_title{
+    padding: 0 0.2rem;
+    height: 0.85rem;
+    line-height: 0.85rem;
+    background: #fff;
+}
+ i{
+    display: inline-block;
+    margin-right: 0.1rem;
+    height: 0.25rem;
+    width: 2px;
+    background: #00c47d;
+    vertical-align: middle;
+}
+ i.discount{
+    background: #eeb889;
+}
+ .order_title .title{
+    font-size: 0.26rem;
+    color: #000;
+    font-weight: bold;
+    /*border-left: 0.02rem solid #00c47d;*/
+}
+ .order_title .right{
+    float: right;
+    font-size: 0.24rem;
+    color: #333;
+}
+ .order_title .right img{
+    margin-left: 0.08rem;
+    width: 0.12rem;
+    height: 0.2rem;
+}
+.order .shopList{
+    border-bottom: 1px solid #f6f6f6;
+}
+
+.order .shopList li{
+    margin-bottom: 0.2rem;
+    height: 2.2rem;
+    padding: 0.2rem;
+    background: #f6f6f6;
+}
+.order .shopList .left{
+    float: left;
+    width: 1.8rem;
+    height: 1.8rem;
+}
+.order .shopList .left img{
+
+}
+.order .shopList .middle{
+    display: inline-block;
+    margin-left: 0.3rem;
+    width: 3.9rem;
+}
+.order .shopList .middle .title{
+    font-size: 0.26rem;
+    font-weight: bold;
+    color: #000;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    display:-webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:2;
+}
+.order .shopList .middle .color{
+    margin: 0.15rem 0;
+    font-size: 0.24rem;
+    color: #999;
+}
+.order .shopList .middle .price{
+    font-size: 0.26rem;
+    color: #ff3e3b;
+}
+.order .shopList li .right{
+    float: right;
+    margin-top: 0.5rem;
+    font-size: 0.26rem;
+}
+
+.settle{
+    border-top: 0.2rem solid #f6f6f6;
+}
+.settle .settleList{
+    padding: 0 0.2rem;
+    font-size: 0.26rem;
+}
+.settle .settleList li{
+    padding-left: 0.15rem;
+    height: 0.85rem;
+    line-height: 0.85rem;
+    border-bottom: 1px solid #f6f6f6;
+}
+.settle .settleList li .right{
+    float: right;
+}
+.settle .total{
+    padding: 0.2rem;
+    float: right;
+    height: 0.84rem;
+    line-height: 0.84rem;
+    font-size: 0.24rem;
+}
+.settle .total span{
+    font-size: 0.28rem;
+    color: #fc3a79;
+    font-weight: bold;
+}
+.footer .foot_total{
+    margin-right: 0.4rem;
+    width: 4.8rem;
+    line-height: 1rem;
+    text-align: right;
+    font-size: 0.24rem;
+    font-weight: bold;
+}
+.footer .foot_total span{
+    color: #fc3a79;
+    font-size: 0.28rem;
+}
+.footer .pay{
+    float: right;
+    width: 2.7rem;
+    line-height: 1rem;
+    text-align: center;
+    color: #fff;
+    background: #00c47d;
+}
