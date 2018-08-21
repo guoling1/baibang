@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0559016d-03bb-4bc5-b3a3-de148a2cc9a4" name="Default" comment="订单">
-      <change afterPath="$PROJECT_DIR$/user/css/shopCar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/images/select1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/images/selectno.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/js/shopCar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/shopCar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/css/shopList.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/shopList.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -20,36 +17,18 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.26837608">
+    <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="shopCar.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/user/shopCar.html">
+          <file leaf-file-name="shopList.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/user/shopList.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="342">
-                  <caret line="44" column="28" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
+                <state relative-caret-position="371">
+                  <caret line="66" column="18" selection-start-line="66" selection-start-column="18" selection-end-line="66" selection-end-column="18" />
                   <folding>
-                    <element signature="n#li#1;n#ul#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#li#1;n#ul#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#li#0;n#ul#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#li#1;n#ul#0;n#div#1;n#body#0;n#html#0;n#!!top" />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="payType.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/user/payType.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="167">
-                  <caret line="48" column="36" lean-forward="true" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="payType.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/user/css/payType.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="225">
-                  <caret line="45" column="1" lean-forward="true" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
@@ -58,29 +37,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="shopCar.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/user/js/shopCar.js">
+          <file leaf-file-name="shopList.css" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/user/css/shopList.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="650">
-                  <caret line="26" column="14" lean-forward="true" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="payType.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/user/js/payType.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="100">
-                  <caret line="3" column="2" lean-forward="true" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="shopCar.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/user/css/shopCar.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="227">
-                  <caret line="126" column="26" selection-start-line="126" selection-start-column="26" selection-end-line="126" selection-end-column="26" />
+                <state relative-caret-position="67">
+                  <caret line="107" column="18" selection-start-line="107" selection-start-column="18" selection-end-line="107" selection-end-column="18" />
                 </state>
               </provider>
             </entry>
@@ -125,8 +86,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/manage/css/help.css" />
-        <option value="$PROJECT_DIR$/manage/changePwd.html" />
         <option value="$PROJECT_DIR$/manage/css/changePwd.css" />
         <option value="$PROJECT_DIR$/manage/payType.html" />
         <option value="$PROJECT_DIR$/manage/css/payType.css" />
@@ -176,6 +135,8 @@
         <option value="$PROJECT_DIR$/user/shopCar.html" />
         <option value="$PROJECT_DIR$/user/js/payType.js" />
         <option value="$PROJECT_DIR$/user/js/shopCar.js" />
+        <option value="$PROJECT_DIR$/user/css/shopList.css" />
+        <option value="$PROJECT_DIR$/user/shopList.html" />
       </list>
     </option>
   </component>
@@ -189,17 +150,15 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="202" />
-    <option name="y" value="35" />
-    <option name="width" value="1363" />
-    <option name="height" value="1006" />
+    <option name="x" value="672" />
+    <option name="width" value="1364" />
+    <option name="height" value="1007" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -216,6 +175,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -226,18 +186,18 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\hk\Desktop\baibang\user\images" />
-      <recent name="C:\Users\hk\Desktop\baibang\user\css" />
-      <recent name="C:\Users\hk\Desktop\baibang\user" />
-      <recent name="C:\Users\hk\Desktop\baibang\user\js" />
-      <recent name="C:\Users\hk\Desktop\baibang\worker" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\hk\Desktop\baibang\user\js" />
       <recent name="C:\Users\hk\Desktop\baibang\user" />
       <recent name="C:\Users\hk\Desktop\baibang\user\images" />
       <recent name="C:\Users\hk\Desktop\baibang\worker\images" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\project\baibang\user\css" />
+      <recent name="D:\project\baibang\user" />
+      <recent name="C:\Users\hk\Desktop\baibang\user\images" />
+      <recent name="C:\Users\hk\Desktop\baibang\user\css" />
+      <recent name="C:\Users\hk\Desktop\baibang\user" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -280,6 +240,7 @@
       <workItem from="1534399304433" duration="9000" />
       <workItem from="1534480089551" duration="5927000" />
       <workItem from="1534559869861" duration="17921000" />
+      <workItem from="1534852560641" duration="4358000" />
     </task>
     <task id="LOCAL-00001" summary="zhuce">
       <created>1531387866661</created>
@@ -474,16 +435,17 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="199565000" />
+    <option name="totallyTimeSpent" value="203923000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="202" y="35" width="1363" height="1006" extended-state="0" />
+    <frame x="538" y="0" width="1091" height="805" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.116981134" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.22938389" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.20174482" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.21107784" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.147806" />
@@ -520,27 +482,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="订单" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/worker/css/regist.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/worker/payType.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="605">
-          <caret line="80" selection-start-line="80" selection-end-line="82" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/worker/extract.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="50" lean-forward="true" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/worker/orderList.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
@@ -718,53 +659,15 @@
     <entry file="file://$PROJECT_DIR$/user/images/用户端-（2）-_52.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/css/shopDetail.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/js/shopDetail.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/user/css/shopDetail.css" />
+    <entry file="file://$PROJECT_DIR$/user/js/shopDetail.js" />
     <entry file="file://$PROJECT_DIR$/user/orderList.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/shopDetail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="42" column="32" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="32" />
-          <folding>
-            <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/css/myOrder.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="29" column="17" lean-forward="true" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/myOrder.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="36" column="28" lean-forward="true" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/js/payOrder.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/user/shopDetail.html" />
+    <entry file="file://$PROJECT_DIR$/user/css/myOrder.css" />
+    <entry file="file://$PROJECT_DIR$/user/myOrder.html" />
+    <entry file="file://$PROJECT_DIR$/user/js/payOrder.js" />
     <entry file="file://$PROJECT_DIR$/user/css/public.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -772,86 +675,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/css/orderSubmit.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="159" column="1" lean-forward="true" selection-start-line="159" selection-start-column="1" selection-end-line="159" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/payOrder.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="38" column="17" lean-forward="true" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/css/payOrder.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="60" column="21" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/orderSubmit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="74" column="25" selection-start-line="74" selection-start-column="25" selection-end-line="74" selection-end-column="25" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#ul#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#ul#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#ul#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/user/css/orderSubmit.css" />
+    <entry file="file://$PROJECT_DIR$/user/payOrder.html" />
+    <entry file="file://$PROJECT_DIR$/user/css/payOrder.css" />
+    <entry file="file://$PROJECT_DIR$/user/orderSubmit.html" />
     <entry file="file://$PROJECT_DIR$/user/images/select.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/css/shopCar.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="126" column="26" selection-start-line="126" selection-start-column="26" selection-end-line="126" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/user/css/shopCar.css" />
     <entry file="file://$PROJECT_DIR$/user/css/payType.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="45" column="1" lean-forward="true" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
+        <state relative-caret-position="855">
+          <caret line="45" column="1" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/user/payType.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="48" column="36" lean-forward="true" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
+        <state relative-caret-position="912">
+          <caret line="48" column="36" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/user/js/payType.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="3" column="2" lean-forward="true" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+        <state relative-caret-position="76">
+          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/js/shopCar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="26" column="14" lean-forward="true" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/user/js/shopCar.js" />
     <entry file="file://$PROJECT_DIR$/user/shopCar.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="44" column="28" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
+        <state relative-caret-position="893">
+          <caret line="66" column="33" lean-forward="true" selection-start-line="66" selection-start-column="33" selection-end-line="66" selection-end-column="33" />
           <folding>
             <element signature="n#li#1;n#ul#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#li#1;n#ul#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/about.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/css/shopList.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="107" column="18" selection-start-line="107" selection-start-column="18" selection-end-line="107" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/shopList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="66" column="18" selection-start-line="66" selection-start-column="18" selection-end-line="66" selection-end-column="18" />
+          <folding>
+            <element signature="n#li#0;n#ul#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#1;n#ul#0;n#div#1;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
