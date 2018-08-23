@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>个人中心</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/shopList.css">
+</head>
+<body>
+<div class="main_header clear">
+    <div class="left" onclick="goBack()">
+        <img src="images/goback1.png" alt="">
+    </div>
+    <div class="title">
+        <input type="text" placeholder="搜索">
+    </div>
+</div>
+
+<div class="container">
+    <div class="screen">
+        <div class="item">
+            <p class="name">综合</p>
+            <p>
+                <i class="topTriangle"></i>
+                <i class="bottomTriangle"></i>
+            </p>
+        </div>
+        <s></s>
+        <div class="item">
+            <p class="name">价格排序</p>
+            <p>
+                <i class="topTriangle"></i>
+                <i class="bottomTriangle"></i>
+            </p>
+        </div>
+        <s></s>
+        <div class="item">
+            <p class="name" onclick="$('.mask').toggle()">筛选</p>
+        </div>
+    </div>
+    <ul class="shopList">
+        <li>
+            <div class="left">
+                <img src="images/remm1.png" alt="">
+            </div>
+            <div class="right">
+                <p class="name">箭牌卫浴(ARROW) 淋浴花洒套装 淋 浴喷枪花洒喷头沐浴莲蓬头浴莲蓬头浴莲蓬头</p>
+                <p class="brand">品牌：箭牌卫浴</p>
+                <p class="price">￥500.00</p>
+            </div>
+        </li>
+        <li>
+            <div class="left">
+                <img src="images/remm1.png" alt="">
+            </div>
+            <div class="right">
+                <p class="name">箭牌卫浴(ARROW) 淋浴花洒套装 淋 浴喷枪花洒喷头沐浴莲蓬头浴莲蓬头浴莲蓬头</p>
+                <p class="brand">品牌：箭牌卫浴</p>
+                <p class="price">￥500.00</p>
+            </div>
+        </li>
+    </ul>
+</div>
+<div class="mask" onclick="$('.mask').toggle()">
+    <div class="mask_content">
+        <ul>
+            <li>
+                <div class="title">品牌</div>
+                <div class="list">
+                    <span>多乐士</span>
+                    <span>多乐士</span>
+                    <span>多乐士</span>
+                    <span>多乐士</span>
+                </div>
+            </li>
+            <li>
+                <div class="title">排水量</div>
+                <div class="list">
+                    <span>多乐士</span>
+                    <span>多乐士</span>
+                    <span>多乐士</span>
+                    <span>多乐士</span>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<script src="js/rem.js"></script>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/public.js"></script>
+
+</body>
+</html>
