@@ -9,15 +9,22 @@ html,body{
     background: url("../images/shareload.png") no-repeat;
     background-size: 100% 100%;
 }
-.container img{
+.content{
     position: absolute;
-    left: 1.73rem;
-    /*top: 6.8rem;*/
-    top: 50.97%;
-    width: 4.2rem;
-    height: 0.87rem;
+    top: 45.5%;
+    left: 15%;
+    padding: 0 10%;
+    width: 50%;
+    height: 3.83rem;
+    background: #ffe4c9;
+    border-radius: 0.2rem;
+}
+.content img{
+    margin-top: 0.75rem;
+    margin-bottom: 0.55rem;
+    width: 100%;
+    height: auto;
 }
 .container img:nth-child(2){
-    /*top: 8.2rem;*/
-    top: 61.62%;
+    margin-top: 0;
 }

@@ -9,33 +9,21 @@ html,body{
     background: url("../images/sharefrom.png") no-repeat;
     background-size: 100% 100%;
 }
-.container .top{
+.content{
     position: absolute;
-    /*left: 1.46rem;*/
-    left: 19.46%;
-    /*top: 3.28rem;*/
-    top: 24.59%;
-    width: 4.6rem;
-    /*height: 6.9rem;*/
-    /*height: 51.72%;*/
-}
-.container .bottom{
-    position: absolute;
-    /*left: 1.46rem;*/
-    left: 19.46%;
-    /*top: 3.28rem;*/
-    top: 62.22%;
-    width: 4.6rem;
-    /*height: 6.9rem;*/
-}
-.container form div{
-
+    top: 15.14%;
+    left: 15%;
+    padding: 0.45rem 5% 0.45rem;
+    width: 60%;
+    background: url("../images/frombg.png") no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
 }
 .container  input{
-    /*margin-bottom: 0.42rem;*/
-    margin-bottom: 10.15%;
-    padding-left: 0.8rem;
-    width: 3.8rem;
+    display: inline-block;
+    margin-bottom: 0.42rem;
+    padding-left: 10%;
+    width: 90%;
     height: 0.68rem;
     line-height: 0.68rem;
     background: #fff;
@@ -43,11 +31,9 @@ html,body{
 }
 .container  .vcode{
     position: relative;
-    margin-bottom: 7.87%;
 }
 .container  .vcode input{
-    /*margin-bottom: 1.05rem;*/
-margin-bottom: 20%;
+    margin-bottom: 0.65rem;
 }
 .container  .vcode span{
     position: absolute;
@@ -55,7 +41,7 @@ margin-bottom: 20%;
     right: 0;
     width: 1.6rem;
     height: 0.68rem;
-    line-height: 0.68rem;
+    line-height: 0.65rem;
     background: #ff6624;
     color: #fff;
     text-align: center;

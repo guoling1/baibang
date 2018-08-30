@@ -9,10 +9,20 @@ html,body{
     background: url("../images/sharecode.png") no-repeat;
     background-size: 100% 100%;
 }
-.container img{
+.content{
     position: absolute;
-    left: 2.32rem;
-    top: 6.58rem;
-    width: 2.91rem;
-    height: 2.91rem;
+    top: 47.78%;
+    left: 25%;
+    padding: 0.35rem 7% 0.15rem;
+    width: 36%;
+    background: #ffe4c9;
+    border-radius: 0.2rem;
+    text-align: center;
+}
+.content .code{
+    width: 100%;
+}
+.content .bottom{
+    margin-top: 0.34rem;
+    width: 70%;
 }
