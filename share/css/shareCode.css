@@ -1,0 +1,18 @@
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url("../images/sharecode.png") no-repeat;
+    background-size: 100% 100%;
+}
+.container img{
+    position: absolute;
+    left: 2.32rem;
+    top: 6.58rem;
+    width: 2.91rem;
+    height: 2.91rem;
+}
