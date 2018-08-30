@@ -9,15 +9,31 @@ html,body{
     background: url("../images/sharefrom.png") no-repeat;
     background-size: 100% 100%;
 }
-.container form{
+.container .top{
     position: absolute;
-    left: 1.46rem;
-    top: 3.28rem;
+    /*left: 1.46rem;*/
+    left: 19.46%;
+    /*top: 3.28rem;*/
+    top: 24.59%;
     width: 4.6rem;
-    height: 6.9rem;
+    /*height: 6.9rem;*/
+    /*height: 51.72%;*/
 }
-.container form input{
-    margin-bottom: 0.42rem;
+.container .bottom{
+    position: absolute;
+    /*left: 1.46rem;*/
+    left: 19.46%;
+    /*top: 3.28rem;*/
+    top: 62.22%;
+    width: 4.6rem;
+    /*height: 6.9rem;*/
+}
+.container form div{
+
+}
+.container  input{
+    /*margin-bottom: 0.42rem;*/
+    margin-bottom: 10.15%;
     padding-left: 0.8rem;
     width: 3.8rem;
     height: 0.68rem;
@@ -25,13 +41,15 @@ html,body{
     background: #fff;
     border-radius: 0.1rem;
 }
-.container form .vcode{
+.container  .vcode{
     position: relative;
+    margin-bottom: 7.87%;
 }
-.container form .vcode input{
-    margin-bottom: 1.05rem;
+.container  .vcode input{
+    /*margin-bottom: 1.05rem;*/
+margin-bottom: 20%;
 }
-.container form .vcode span{
+.container  .vcode span{
     position: absolute;
     top: 0;
     right: 0;

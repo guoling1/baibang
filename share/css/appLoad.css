@@ -12,10 +12,12 @@ html,body{
 .container img{
     position: absolute;
     left: 1.73rem;
-    top: 6.8rem;
+    /*top: 6.8rem;*/
+    top: 50.97%;
     width: 4.2rem;
     height: 0.87rem;
 }
 .container img:nth-child(2){
-    top: 8.2rem;
+    /*top: 8.2rem;*/
+    top: 61.62%;
 }
