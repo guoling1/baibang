@@ -26,13 +26,24 @@ li .bottom{
     height: 0.53rem;
     line-height: 0.53rem;
 }
-li .bottom .pay{
+li .bottom a{
     float: right;
+    margin-right: 0.15rem;
     width: 1.66rem;
     height: 0.53rem;
     line-height: 0.53rem;
     background: #00c47d;
     color: #fff;
     text-align: center;
-    border-radius: 0.04rem;
+    border-radius: 0.06rem;
+}
+li .bottom a.eval{
+    border: 1px solid #fc3a79;
+    color: #fc3a79;
+    background: #fff;
+}
+li .bottom a.delete{
+    border: 1px solid #000;
+    color: #000;
+    background: #fff;
 }
