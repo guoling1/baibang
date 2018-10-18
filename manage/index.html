@@ -49,6 +49,16 @@
         </li>
     </ul>
 </div>
+<div id="mask">
+    <img src="images/hongbao.png" alt="">
+</div>
+<div id="reward">
+    <span class="close">x</span>
+    <img src="images/hongbao1.png" alt="">
+    <p class="top">恭喜您已获得</p>
+    <p class="money">3.00元</p>
+    <p class="bottom">已存入您的账户</p>
+</div>
 
 <ul class="footer">
     <li>
@@ -67,5 +77,14 @@
 
 <script src="js/rem.js"></script>
 <script src="js/jquery-3.3.1.min.js"></script>
+<script>
+    $("#mask").click(function () {
+        $('#reward').show()
+        $('#mask').hide()
+    })
+    $("#reward .close").click(function () {
+        $('#reward').hide()
+    })
+</script>
 </body>
 </html>

@@ -113,3 +113,15 @@
     font-size: 0.32rem;
     color: #fff;
 }
+
+#mask{
+    position: fixed;
+    top: 40%;
+    right: 0;
+    padding: 0.05rem;
+    width: 20px;
+    background: #00c47e;
+    color: #fff;
+    text-align: center;
+    border-radius: 0.1rem 0 0 0.1rem;
+}
