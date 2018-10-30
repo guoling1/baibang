@@ -1,0 +1,82 @@
+#personCenter .top{
+    position: relative;
+    text-align: center;
+    background: url("../images/personal_bg.png") no-repeat;
+    background-size:  100% 100%;
+    font-size: 0.24rem;
+    color: #a6b0ca;
+    height: 2.6rem;
+}
+#personCenter .top .myScore{
+    position: absolute;
+    top: 1rem;
+    left: 5%;
+    width: 90%;
+    height: 2.2rem;
+    background: #fff;
+    border-radius: 0.1rem;
+    box-shadow: 0 10px 30px #d3ddfdcf;
+}
+#personCenter .top .myScore p{
+    margin-top: 0.6rem;
+}
+#personCenter .top .myScore p.score{
+    color: #333;
+    font-size: 0.44rem;
+    font-weight: 1000;
+    margin-top: 0.2rem;
+}
+#personCenter .empty{
+    height: 1.55rem;
+    background: #fff;
+}
+#personCenter ul{
+    padding: 0.1rem 0.3rem 0;
+    margin-bottom: 0.2rem;
+    background: #fff;
+}
+#personCenter ul li{
+    /*margin-top: 0.19rem;*/
+    height: 1.19rem;
+    line-height: 1.19rem;
+    border-bottom: 1px solid #e7e7e7;
+    font-size: 0.28rem;
+    color: #000;
+    font-weight: bold;
+}
+#personCenter .title{
+    height: 0.66rem;
+    line-height: 0.66rem;
+    background: #f3f3f3;
+    font-size: 0.24rem;
+    font-weight: bold;
+    color: #000;
+}
+#personCenter .title .left{
+    float: left;
+    margin-left: 0.75rem;
+}
+#personCenter .title .right{
+    float: right;
+    margin-right: 0.45rem;
+}
+#personCenter ul li .left{
+    float: left;
+    margin-top: 0.23rem;
+}
+#personCenter ul li .left .name{
+    line-height: 0.4rem;
+
+}
+#personCenter ul li .left .date{
+    line-height: 0.3rem;
+    font-size: 0.24rem;
+    color: #999;
+    font-weight: normal;
+}
+#personCenter ul li .right{
+    float: right;
+}
+#personCenter ul li:last-child{
+    border-bottom: none;
+}
