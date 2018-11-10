@@ -73,3 +73,14 @@
     font-size: 0.3rem;
     background: #f6f6f6;
 }
+.footer a i{
+    position: absolute;
+    top: 0;
+    right: 0.3rem;
+    background: #ff0000;
+    border-radius: 50%;
+    color: #fff;
+    font-style: normal;
+    font-size: 0.24rem;
+    padding: 0 0.09rem;
+}
