@@ -1,0 +1,237 @@
+body{
+    background: #f0f0f0;
+}
+.swiper-pagination-bullet {
+    width: 0.12rem;
+    height: 0.04rem;
+    border: 1px solid #fff;
+    display: inline-block;
+     border-radius: 0;
+     background: transparent;
+}
+.swiper-pagination-bullet-active{
+    border: 1px solid #00bf8f;
+    background: #00bf8f;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    padding: 0.24rem 0;
+    background: #fff;
+    font-size: 0.26rem;
+}
+.menu li{
+    width: 20%;
+    text-align: center;
+}
+.menu li img{
+    display: inline-block;
+    width: 0.9rem;
+    height: auto;
+}
+.nav{
+    padding: 0.16rem 0.24rem;
+}
+.nav div{
+    padding: 0.24rem 0 0 0.15rem;
+    background: #fff;
+    color: #999;
+}
+.nav div .title{
+    font-size: 0.3rem;
+    color: #f13846;
+    font-weight: bold;
+    white-space: nowrap;
+}
+.nav div.left{
+    float: left;
+    width: 3.26rem;
+}
+.nav div.left img{
+    margin: 0 auto;
+    height: 2.66rem;
+    width: 2.66rem;
+}
+.nav div.top{
+    margin-bottom: 0.16rem;
+}
+.nav div.top,.nav div.bottom{
+    float: right;
+    position: relative;
+    width: 3.29rem;
+    padding-top: 0;
+    height: 1.75rem;
+}
+.nav div.top .title{
+    margin: 0.24rem 0 0.15rem;
+    color: #4892e1;
+}
+.nav div.bottom .title{
+     margin: 0.24rem 0 0.15rem;
+     color: #fec153;
+ }
+.nav div.top img,.nav div.bottom img{
+    height: 1.75rem;
+    width: 1.75rem;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.column{
+    background: #fff;
+}
+.column .column-title{
+    padding: 0 0.24rem;
+    height: 0.71rem;
+    line-height: 0.71rem;
+    font-size: 0.3rem;
+}
+.column .column-title .more{
+    font-size: 0.24rem;
+    color: #666;
+}
+.column .column-title .more img{
+    display: inline-block;
+    height: 0.16rem;
+    width: auto;
+    vertical-align: middle;
+}
+.choice{
+    margin-bottom: 0.16rem;
+    padding: 0 0.24rem 0.07rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.choice li{
+    position: relative;
+    margin-bottom: 0.18rem;
+    width: 2.22rem;
+    height: 2.38rem;
+    background: url("../images/choice-bg.png") no-repeat;
+    background-size: 100% 100%;
+}
+.choice li img{
+    margin: 0.07rem auto 0;
+    width: 90%;
+    height: auto;
+}
+.choice li .name{
+    position: absolute;
+    bottom: 0.54rem;
+    text-align: center;
+    width: 100%;
+    font-size: 0.31rem;
+    color: #aa895e;
+}
+.choice li .sale{
+    position: absolute;
+    left: 5%;
+    bottom: 0.09rem;
+    text-align: center;
+    width: 90%;
+    height: 0.36rem;
+    line-height: 0.36rem;
+    border: 1px solid #d45f49;
+    border-radius: 0.18rem;
+    background: #f57c65;
+    font-size: 0.26rem;
+    color: #fff;
+}
+.share{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 1px;
+    margin-bottom: 0.16rem;
+    padding: 0 0.24rem 0.3rem;
+    border-top: 1px solid #e2e2e2;
+    background: #fff;
+}
+.share li{
+    width: 3.42rem;
+}
+.share li .top{
+    padding: 0.24rem 0 0.16rem;
+    height: 0.5rem;
+    line-height: 0.5rem;
+}
+.share li .avatar{
+    display: inline-block;
+    width: 0.5rem;
+    height: 0.5rem;
+
+}
+.share li .name{
+    display: inline-block;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    font-size: 0.26rem;
+    vertical-align: top;
+}
+.share li .date{
+    float: right;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    color: #999;
+    vertical-align: top;
+}
+.share li .share-img{
+    margin-bottom: 0.24rem;
+    width: 3.42rem;
+    height: 1.9rem;
+}
+.share li p{
+    color: #666;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.strategy{
+    padding: 1.43rem 0.24rem 0.3rem;
+    background: url("../images/strategy-tit.png") no-repeat top;
+    background-size: 100% auto;
+}
+.strategy ul{
+    padding: 0.46rem 0.2rem 0.26rem;
+    background: #fff;
+    box-shadow: 0 0 10px #979696;
+}
+.strategy ul li{
+    margin-bottom: 0.26rem;
+}
+.strategy ul li:last-child{
+    margin-bottom: 0;
+}
+.strategy ul .left{
+    float: left;
+    width: 2.31rem;
+    height: 1.74rem;
+}
+.strategy ul .right{
+    margin-left: 2.49rem;
+}
+.strategy ul .right .title{
+    line-height: 0.58rem;
+    font-size: 0.28rem;
+}
+.strategy ul .status{
+    margin: 0.06rem 0 0.10rem;
+    text-align: center;
+    width: 1.2rem;
+    line-height: 0.32rem;
+    background: #fec153;
+    border-radius: 0.04rem;
+    color: #fff;
+}
+.strategy ul .detail{
+    line-height: 0.36rem;
+    color: #999;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
