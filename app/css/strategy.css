@@ -1,17 +1,48 @@
-body{
-    background: #f0f0f0;
+.header {
+    background: #fff;
+    border: none;
+    color: #333;
+}
+swiper-container{
+    position: relative;
 }
 .swiper-pagination-bullet {
-    width: 0.12rem;
-    height: 0.04rem;
-    border: 1px solid #fff;
+    width: 0.1rem;
+    height: 0.1rem;
+    border: 1px solid #00bd8e;
     display: inline-block;
-     border-radius: 0;
-     background: transparent;
+     background: #e4e4e4;
+    opacity:1;
 }
 .swiper-pagination-bullet-active{
-    border: 1px solid #00bf8f;
-    background: #00bf8f;
+    background: #00bd8e;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets{
+    bottom: 0.16rem;
+}
+.search {
+    position: absolute;
+    bottom: 0.5rem;
+    left: 0.24rem;
+    z-index: 2;
+    margin: 0 auto;
+     width: 7.02rem;
+    line-height: 0.52rem;
+    background: #fff;
+    border-radius: 3px;
+}
+
+.search img {
+    display: inline-block;
+    margin: 0 0.14rem 0 0.16rem;
+    width: 0.22rem;
+    height: auto;
+    vertical-align: middle;
+}
+
+.search input {
+    width: 6rem;
+    height: 100%;
 }
 .menu{
     display: flex;
