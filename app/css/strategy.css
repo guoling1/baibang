@@ -1,0 +1,231 @@
+.header {
+    background: #fff;
+    border: none;
+    color: #333;
+}
+.swiper-container{
+    position: relative;
+}
+.swiper-pagination-bullet {
+    width: 0.1rem;
+    height: 0.1rem;
+    border: 1px solid #00bd8e;
+    display: inline-block;
+    background: #e4e4e4;
+    opacity:1;
+    border-radius: 50%;
+}
+.swiper-pagination-bullet-active{
+    background: #00bd8e;
+}
+.swiper-container .swiper-container-horizontal>.swiper-pagination-bullets{
+    bottom: 0.16rem;
+}
+.swiper-container1 .swiper-pagination-bullet{
+    border: none;
+}
+.swiper-container1 .swiper-container-horizontal>.swiper-pagination-bullets{
+    bottom: 0.16rem;
+}
+.swiper-pagination1{
+    text-align: center;
+    margin-top: -7px;
+    margin-bottom: 0.16rem;
+}
+.search {
+    position: absolute;
+    bottom: 0.5rem;
+    left: 0.24rem;
+    z-index: 2;
+    margin: 0 auto;
+     width: 7.02rem;
+    line-height: 0.52rem;
+    background: #fff;
+    border-radius: 3px;
+}
+
+.search img {
+    display: inline-block;
+    margin: 0 0.14rem 0 0.16rem;
+    width: 0.22rem;
+    height: auto;
+    vertical-align: middle;
+}
+
+.search input {
+    width: 6rem;
+    height: 100%;
+}
+.swiper-container1{
+    background: #fff;
+}
+.menu{
+    margin: 0 auto;
+    padding: 0.33rem 0 0;
+    width: 95%;
+    background: #fff;
+}
+.menu li{
+    display: inline-block;
+    margin-bottom: 0.18rem;
+    width: 19%;
+    text-align: center;
+}
+.menu li img{
+    margin: 0 auto;
+    width: 0.7rem;
+    height: auto;
+}
+.menu li p{
+
+    line-height: 0.48rem;
+}
+
+.recommend{
+    padding: 0 0.24rem 0.24rem;
+}
+.recommend div p{
+    font-size: 0.26rem;
+    color: #fff;
+    font-weight: bold;
+    white-space: nowrap;
+    text-align: center;
+    line-height: 0.26rem;
+}
+.recommend div.left{
+    float: left;
+    width: 3.42rem;
+    height: 3.6rem;
+    font-size: 0;
+    background: url("../images/recommend1.png") no-repeat;
+}
+.recommend div.top{
+    margin-bottom: 0.16rem;
+    background: url("../images/recommend2.png") no-repeat;
+    background-size: 100% 100%;
+}
+.recommend div.bottom{
+    background: url("../images/recommend3.png") no-repeat;
+}
+.recommend div.top,.recommend div.bottom{
+    float: right;
+    position: relative;
+    width: 3.42rem;
+    height: 1.71rem;
+    font-size: 0;
+    background-size: 100% 100%;
+}
+.recommend div p{
+    display: inline-block;
+    background: rgba(204, 26, 9, 0.5);
+    padding: 0.14rem;
+}
+.recommend div .title{
+   background: rgba(0, 204, 128, 0.5);
+}
+.recommend div.left p{
+
+    white-space: inherit;
+    width: 0.26rem;
+    position: relative;
+    bottom: -0.3rem;
+}
+.recommend div.left .title{
+    bottom: 0;
+    margin: 0.3rem 0 0 0.24rem;
+    max-width: 2.9rem;
+ }
+.recommend div.top p,.recommend div.bottom p{
+    padding: 0.08rem 0.08rem 0.08rem 0.12rem;
+}
+.recommend div.top .title,.recommend div.bottom .title{
+
+    margin-top: 0.24rem;
+    max-width: 2.98rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.column{
+    background: #fff;
+}
+.column .column-title{
+    padding: 0 0.24rem;
+    height: 0.71rem;
+    line-height: 0.71rem;
+    font-size: 0.3rem;
+}
+.column .column-title .more{
+    font-size: 0.24rem;
+    color: #666;
+}
+.column .column-title .more img{
+    display: inline-block;
+    height: 0.16rem;
+    width: auto;
+    vertical-align: middle;
+}
+.strategy{
+    padding: 0.2rem 0.24rem 0.2rem;
+}
+/*.strategy ul{
+    padding: 0.46rem 0.2rem 0.26rem;
+    background: #fff;
+    box-shadow: 0 0 10px #979696;
+}*/
+.strategy ul li{
+    margin-bottom: 0.26rem;
+}
+.strategy ul li:last-child{
+    margin-bottom: 0;
+}
+.strategy ul .left{
+    float: left;
+    position: relative;
+    width: 2.31rem;
+    height: 1.74rem;
+}
+.strategy ul .left .tip{
+    position: absolute;
+    top: 0;
+    padding-right: 0.15rem;
+    background: url("../images/eye-bg.png")
+no-repeat right;
+    background-size: auto 0.34rem;
+}
+.strategy ul .left .tip .con{
+    padding: 0 0.08rem;
+    background: rgba(0,0,0,0.8);
+    height: 0.34rem;
+    color: #fff;
+}
+.strategy ul .left .tip .con img{
+    width: 0.14rem;
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+}
+.strategy ul .right{
+    margin-left: 2.49rem;
+}
+.strategy ul .right .title{
+    line-height: 0.58rem;
+    font-size: 0.28rem;
+}
+.strategy ul .status{
+    margin: 0.06rem 0 0.10rem;
+    text-align: center;
+    width: 1.2rem;
+    line-height: 0.32rem;
+    background: #fec153;
+    border-radius: 0.04rem;
+    color: #fff;
+}
+.strategy ul .detail{
+    line-height: 0.36rem;
+    color: #999;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}

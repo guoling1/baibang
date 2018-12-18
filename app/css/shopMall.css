@@ -1,0 +1,117 @@
+body {
+    background: #fff;
+}
+
+.header {
+    background: #fff;
+    border: none;
+    color: #333;
+}
+
+.search {
+    position: fixed;
+    width: 100%;
+    background: #fff;
+    padding: 0.24rem;
+    border-top: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+}
+
+.search div {
+    height: 0.52rem;
+    line-height: 0.52rem;
+    background: #ededed;
+    border-radius: 3px;
+}
+
+.search div img {
+    display: inline-block;
+    margin: 0 0.14rem 0 0.16rem;
+    width: 0.22rem;
+    height: auto;
+    vertical-align: middle;
+}
+
+.search div input {
+    width: 6rem;
+    height: 100%;
+}
+
+.main {
+    padding-top: 1.33rem;
+}
+
+.main .left {
+    position: fixed;
+    top: 1.93rem;
+    width: 1.48rem;
+    height: 100%;
+    background: #f8f8f8;
+    overflow-y: auto;
+}
+
+.main .left li {
+    padding: 0.2rem 0;
+    height: 0.6rem;
+    line-height: 0.6rem;
+    text-align: center;
+    border-bottom: 0.02rem solid #fff;
+    color: #222;
+}
+
+.main .left li span {
+    width: 100%;
+    border-left: 0.07rem solid #f8f8f8;
+}
+
+.main .left li.active {
+    background: #fff;
+    color: #00bf8f;
+    font-weight: bold;
+}
+
+.main .left li.active span {
+    display: inline-block;
+    border-left-color: #00bf8f;
+}
+
+.main .right {
+    margin-left: 1.48rem;
+    padding: 0 0.24rem;
+    height: 100%;
+}
+.main .right .ad{
+    width: 100%;
+    height: 1.68rem;
+}
+.main .right .column-title{
+    text-align:center;
+    margin: 0.6rem 0.4rem 0;
+    font-weight: bold;
+    color: #555;
+}
+.main .right .column-title:after,.main .right .column-title:before{
+    display: inline-block;
+    width: 0.9rem;
+    height: 0.02rem;
+    background: #ededed;
+    content: "";
+    vertical-align: middle;
+    margin: 0 0.4rem;
+}
+.main .column-con{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.main .column-con li{
+    width: 1.5rem;
+    text-align: center;
+}
+.main .column-con li img{
+    width: 100%;
+    height: auto;
+}
+.main .column-con li p{
+    color: #666;
+}

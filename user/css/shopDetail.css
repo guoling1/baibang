@@ -48,6 +48,33 @@
 .detail{
     background: #fff;
 }
+.detail .top{
+    height: 0.8rem;
+    line-height: 0.8rem;
+    background: #fff;
+}
+.detail .top div{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 49%;
+    font-size: 0.3rem;
+    font-weight: bold;
+    color: #666;
+}
+.detail .top div.active{
+    color: #000;
+    font-weight: bold;
+}
+.detail .top div.active i{
+    position: absolute;
+    bottom: 0.1rem;
+    left: 43%;
+    /*display: inline-block;*/
+    width: 0.45rem;
+    height: 2px;
+    background: #000;
+}
 .detail .subject{
     padding: 0.25rem 0 0.5rem;
     text-align: center;
@@ -69,6 +96,43 @@
 .detail .detailCon{
     font-size: 0;
 }
+.detail .eval{
+    padding: 0 0.3rem;
+}
+.detail .eval li{
+    padding-top: 0.4rem;
+    border-bottom: 1px solid #f6f6f6;
+}
+.detail .eval li .top{
+    height: 0.75rem;
+    line-height: 0.75rem;
+    font-size: 0.28rem;
+    font-weight: bold;
+}
+.detail .eval li .top img{
+    float: left;
+    width: 0.75rem;
+    height: 0.75rem;
+    border-radius: 50%;
+}
+.detail .eval li .top .name{
+    margin-left: 0.2rem;
+}
+.detail .eval li .limiddle{
+    margin-top: 0.25rem;
+    font-size: 0.28rem;
+    color: #999;
+}
+.detail .eval li .bottom{
+    margin: 0.3rem 0;
+    font-size: 0.32rem;
+    font-weight: bold;
+}
+.detail .eval li .imgList img{
+    margin:0 0.2rem 0.2rem 0;
+    width: 1.33rem;
+    height: 1.33rem;
+}
 .detailBottom{
     position: fixed;
     bottom: 0;
@@ -86,6 +150,50 @@
 .detailBottom .buy{
     background: #00c47e;
     color: #fff;
+}
+.shop{
+    margin-bottom: 0.2rem;
+    padding: 0.3rem 0;
+    position: relative;
+    width: 100%;
+    height: 1.04rem;
+    text-align: left;
+    font-size: 0.24rem;
+    background: #fff;
+}
+.shop .left{
+    position: absolute;
+    left: 0.6rem;
+    width: 1.04rem;
+    height: 1.04rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.shop .left img{
+    width: 100%;
+    height: 100%;
+}
+.shop .center{
+    margin: 0.15rem auto;
+    width: 3.5rem;
+    color: #666;
+    font-weight: bold;
+}
+.shop .center .name{
+    color: #333;
+    font-size: 0.32rem;
+}
+.shop .right{
+    position: absolute;
+    right: 0.67rem;
+    top: 0.58rem;
+    width: 1.09rem;
+    height: 0.46rem;
+    line-height: 0.46rem;
+    border: 1px solid #fc3a79;
+    border-radius: 0.23rem;
+    color: #fc3a79;
+    text-align: center;
 }
 .mask{
     display: none;

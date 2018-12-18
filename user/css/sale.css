@@ -1,0 +1,82 @@
+body,.container {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: url("../images/salebg.png") no-repeat;
+    background-size: 100% 100%;
+    overflow: scroll;
+}
+.main_header{
+    background: #fff;
+}
+.main_header .left{
+    width: 0.8rem;
+}
+.main_header .title{
+    border-radius: 0.05rem;
+    margin-right: 0.8rem;
+    font-size: 0.32rem;
+    color: #000;
+    font-weight: bold;
+}
+.shopList{
+    padding: 0.3rem;
+    margin-bottom: 0.6rem;
+}
+.shopList li{
+    margin-bottom: 0.3rem;
+    padding: 0.25rem 0;
+    width: 100%;
+    height: 2.3rem;
+    background: #fff;
+    border-radius: 0.25rem;
+}
+.shopList li .left{
+    display: inline-block;
+    margin: 0 0.3rem;
+    width: 2.3rem;
+    height: 2.3rem;
+}
+.shopList li .right{
+    position: relative;
+    display: inline-block;
+    /*padding-left: 0.2rem;*/
+    width: 3.8rem;
+    height: 100%;
+    /*border-bottom: 0.01rem solid #eaeaea;*/
+    vertical-align: top;
+}
+.shopList li .right .top{
+    height: 0.42rem;
+    line-height: 0.42rem;
+    font-size: 0.24rem;
+    font-weight: bold;
+    overflow: hidden;
+}
+
+ .shopList li .right .top .label{
+     padding: 0 0.2rem;
+     border-radius: 0.21rem;
+     background: #ff3e3b;
+     color: #fff;
+}
+.shopList li .right .name{
+    margin: 0.3rem 0;
+    font-size: 0.28rem;
+    line-height: 0.43rem;
+    font-weight: bold;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    display:-webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:2;
+}
+.shopList li .right .num{
+    position: absolute;
+    bottom: 0;
+    font-size: 0.24rem;
+    font-weight: bold;
+}
+.shopList li .right .num span{
+    color: #ff3e3b;
+}

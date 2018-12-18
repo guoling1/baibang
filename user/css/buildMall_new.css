@@ -1,0 +1,113 @@
+#buildMall .head{
+    position: relative;
+    background: url("../images/buildbg.png") no-repeat;
+    background-size: 100% 100%;
+    height: 3.4rem;
+    text-align: center;
+}
+#buildMall .head .top{
+    padding-top: 0.15rem;
+}
+#buildMall .head .back{
+    position: absolute;
+    left: 0.2rem;
+    top: 0.3rem;
+    width: 0.2rem;
+    height: 0.34rem;
+}
+#buildMall .head input{
+    margin:0 auto;
+    text-align: center;
+    left: 0;
+    width: 5.85rem;
+    height: 0.6rem;
+    background: #fff;
+    border-radius: 0.06rem;
+    font-size: 0.28rem;
+}
+#buildMall .head .bottom{
+    position: absolute;
+    bottom: .2rem;
+    width: 100%;
+    text-align: left;
+    font-size: 0.24rem;
+}
+#buildMall .head .bottom .left{
+    position: absolute;
+    left: 0.8rem;
+    width: 0.94rem;
+    height: 0.94rem;
+}
+#buildMall .head .bottom .left img{
+    width: 100%;
+    height: 100%;
+}
+#buildMall .head .bottom .center{
+    margin: 0 auto;
+    width: 3.5rem;
+    color: #666;
+    font-weight: bold;
+}
+#buildMall .head .bottom .center .name{
+    color: #000;
+    font-size: 0.32rem;
+}
+#buildMall .head .bottom .right{
+    position: absolute;
+    right: 0.67rem;
+    top: 0.18rem;
+    width: 1.09rem;
+    height: 0.46rem;
+    line-height: 0.46rem;
+    border: 1px solid #fc3a79;
+    border-radius: 0.23rem;
+    color: #fc3a79;
+    text-align: center;
+}
+.ad{
+    padding: 0.49rem 0.3rem 0.44rem;
+}
+.ad img{
+    width: 100%;
+    height: 100%;
+}
+#buildMall .exchange ul,#buildMall .recommend ul{
+    padding: 0 0.15rem;
+}
+#buildMall .exchange li{
+    display: inline-block;
+    margin: 0 0.1rem 0.3rem;
+    background: #fff;
+    border-radius: 0.2rem;
+    width: 3.34rem;
+    height: 5.23rem;
+}
+#buildMall .exchange li img{
+    margin: 0.6rem 0 0.2rem;
+    width: 100%;
+    height: auto;
+}
+#buildMall .exchange li .shopName{
+    margin: 0 0.1rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: box;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    font-size: 0.28rem;
+    font-weight: bold;
+}
+#buildMall .exchange li .bottom{
+    padding: 0.32rem 0.1rem 0;
+}
+#buildMall .exchange li .bottom .price{
+    font-weight: bold;
+    font-size: 0.32rem;
+    color: #ff3e3b;
+}
+#buildMall .exchange li .bottom .number{
+    float: right;
+    font-size: 0.24rem;
+    color: #999;
+}

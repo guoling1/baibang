@@ -41,3 +41,55 @@ body{
 .order li .content p{
     line-height: 0.5rem;
 }
+
+#mask{
+    position: fixed;
+    bottom: 20%;
+    right: 1%;
+    width: 1.5rem;
+    color: #fff;
+    text-align: center;
+    border-radius: 0.1rem 0 0 0.1rem;
+}
+#reward{
+    display: none;
+    z-index: 999;
+    position: fixed;
+    top: 26%;
+    width: 80%;
+    height: auto;
+    text-align: center;
+    margin-left: 10%;
+}
+#reward .close{
+    float: right;
+    border: 1px solid #757474;
+    color: #757474;
+    border-radius: 50%;
+    width: 0.3rem;
+    line-height: 0.3rem;
+    font-size: 0.32rem;
+    padding-bottom: 0.01rem;
+}
+#reward p{
+    position: absolute;
+    /*top: 0;*/
+    color: #fff;
+    width: 100%;
+    text-align: center;
+}
+#reward p.top{
+     font-size: 0.32rem;
+     top: 40%;
+
+ }
+#reward p.money{
+    font-size: 0.5rem;
+    top: 50%;
+    font-weight: bold;
+}
+#reward p.bottom{
+    font-size: 0.26rem;
+    bottom: 20%;
+    color: #ffd20c;
+}

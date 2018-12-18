@@ -1,0 +1,39 @@
+.header {
+    background: #fff;
+    border: none;
+    color: #333;
+}
+.header .left img {
+    width: 0.19rem;
+    height: auto;
+}
+.box{
+    padding: 3.2rem 0.24rem 0;
+    background: url("../images/strategy-bg.png") no-repeat;
+    background-size: 100% auto;
+}
+.content{
+    padding: 0.3rem;
+    box-shadow: 0 0 10px #8f8f8f;
+    background: #fff;
+}
+.content .title{
+    font-size: 0.32rem;
+}
+.content .middle{
+    font-size: 0.26rem;
+    color: #999;
+}
+.content .middle .right{
+    float: right;
+}
+.content .middle .right img{
+    display: inline-block;
+    width: 0.2rem;
+    height: auto;
+    vertical-align: middle;
+}
+.content .detail{
+    margin: 0.18rem 0;
+}
+
