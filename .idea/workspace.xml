@@ -2,122 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0559016d-03bb-4bc5-b3a3-de148a2cc9a4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/budget.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/css/budget.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/css/detection.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/css/public.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/css/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/css/shop.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/css/shopMall.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/css/strategy.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/css/strategyDetail.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/css/strategyList.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/css/swiper-4.3.3.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/detection.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/avatar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/back.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/budget-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/choice-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/choice.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/detection-tit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/detection.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/eye-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/eye.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/eye1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/fenzi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/foot11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/foot2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/foot3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/horn-bottom.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/horn-right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/house.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/index-banner.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/jisuanqi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/menu1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/menu2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/menu3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/menu4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/menu5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/nav1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/nav2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/nav3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/nav4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/nav5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/nav6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/nav7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/nav8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/nav9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/people-black.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/people.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/phone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/price-drop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/price-rise.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/recommend1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/recommend2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/recommend3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/search.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/share.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/shop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/shop1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/shopMall-ad.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/strategy-banner.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/strategy-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/strategy-tit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/strategy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/strategyDt-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/zhuangxiu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/js/jquery-3.3.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/js/rem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/js/swiper-4.3.3.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/shop.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/shopMall.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/strategy.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/strategyDetail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/strategyList.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage/images/hongbao.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage/images/hongbao1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/share/images/lineleft1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/share/images/lineright2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/buildMall_new.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/css/buildMall_new.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/css/eval.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/css/follow.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/css/sale.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/css/score.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/eval.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/follow.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/images/nm.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/images/salebg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/sale.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/score.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/worker/images/hongbao.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/worker/images/hongbao1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/manage/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/manage/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/share/css/registForm.css" beforeDir="false" afterPath="$PROJECT_DIR$/share/css/registForm.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/share/images/frombg.png" beforeDir="false" afterPath="$PROJECT_DIR$/share/images/frombg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/share/registForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/share/registForm.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/css/decorateConfirm.css" beforeDir="false" afterPath="$PROJECT_DIR$/user/css/decorateConfirm.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/css/decorateWrite.css" beforeDir="false" afterPath="$PROJECT_DIR$/user/css/decorateWrite.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/css/myOrder.css" beforeDir="false" afterPath="$PROJECT_DIR$/user/css/myOrder.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/css/orderList.css" beforeDir="false" afterPath="$PROJECT_DIR$/user/css/orderList.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/css/public.css" beforeDir="false" afterPath="$PROJECT_DIR$/user/css/public.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/css/shopDetail.css" beforeDir="false" afterPath="$PROJECT_DIR$/user/css/shopDetail.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/decorateConfirm.html" beforeDir="false" afterPath="$PROJECT_DIR$/user/decorateConfirm.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/decorateWrite.html" beforeDir="false" afterPath="$PROJECT_DIR$/user/decorateWrite.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/images/addImg.png" beforeDir="false" afterPath="$PROJECT_DIR$/user/images/addImg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/js/shopDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/user/js/shopDetail.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/myOrder.html" beforeDir="false" afterPath="$PROJECT_DIR$/user/myOrder.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/orderList.html" beforeDir="false" afterPath="$PROJECT_DIR$/user/orderList.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/personCenter.html" beforeDir="false" afterPath="$PROJECT_DIR$/user/personCenter.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/shopDetail.html" beforeDir="false" afterPath="$PROJECT_DIR$/user/shopDetail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/worker/css/orderList.css" beforeDir="false" afterPath="$PROJECT_DIR$/worker/css/orderList.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/worker/order.html" beforeDir="false" afterPath="$PROJECT_DIR$/worker/order.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -136,8 +21,8 @@
           <file leaf-file-name="budget.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/budget.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="173">
-                  <caret line="44" column="24" selection-start-line="44" selection-start-column="24" selection-end-line="44" selection-end-column="24" />
+                <state relative-caret-position="192">
+                  <caret line="45" column="27" lean-forward="true" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
                   <folding>
                     <element signature="n#select#0;n#div#1;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" />
                   </folding>
@@ -149,12 +34,19 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="budget.css" pinned="false" current-in-tab="true">
+          <file leaf-file-name="budget.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/css/budget.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="380">
-                  <caret line="53" column="19" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
+                <state relative-caret-position="304">
+                  <caret line="49" column="24" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
                 </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="strategy.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/strategy.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-285" />
               </provider>
             </entry>
           </file>
@@ -284,12 +176,6 @@
               <item name="baibang" type="b2602c69:ProjectViewProjectNode" />
               <item name="baibang" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="baibang" type="b2602c69:ProjectViewProjectNode" />
-              <item name="baibang" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -572,15 +458,28 @@
       <option name="project" value="LOCAL" />
       <updated>1535629581585</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="页面">
+      <created>1545133489122</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1545133489122</updated>
+    </task>
+    <task id="LOCAL-00032" summary="页面">
+      <created>1545133519287</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1545133519287</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="209496000" />
+    <option name="totallyTimeSpent" value="209736000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15587847" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -622,7 +521,6 @@
     <MESSAGE value="Merge branch 'master' of https://github.com/guoling1/baibang&#10;&#10;# Conflicts:&#10;#&#9;worker/css/css.css" />
     <MESSAGE value="首页" />
     <MESSAGE value="商城" />
-    <MESSAGE value="页面" />
     <MESSAGE value="部分JS" />
     <MESSAGE value="管理部分页面" />
     <MESSAGE value="管理页面" />
@@ -632,16 +530,10 @@
     <MESSAGE value="订单" />
     <MESSAGE value="商品列表" />
     <MESSAGE value="Merge branch 'master' of https://github.com/guoling1/baibang&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/guoling1/baibang&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
+    <MESSAGE value="页面" />
+    <option name="LAST_COMMIT_MESSAGE" value="页面" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/user/memberLevel.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/user/priceLevel.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
@@ -860,20 +752,25 @@
     <entry file="file://$PROJECT_DIR$/app/images/strategy-bg.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/budget.html">
+    <entry file="file://$PROJECT_DIR$/app/css/budget.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="44" column="24" selection-start-line="44" selection-start-column="24" selection-end-line="44" selection-end-column="24" />
-          <folding>
-            <element signature="n#select#0;n#div#1;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="304">
+          <caret line="49" column="24" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/css/budget.css">
+    <entry file="file://$PROJECT_DIR$/app/strategy.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="53" column="19" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
+        <state relative-caret-position="-285" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/budget.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="45" column="27" lean-forward="true" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
+          <folding>
+            <element signature="n#select#0;n#div#1;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
