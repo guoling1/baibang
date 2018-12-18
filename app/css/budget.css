@@ -8,15 +8,21 @@
     height: auto;
 }
 .container{
-    background: url(../images/detection-tit.png) no-repeat 0 0.88rem;
+    background: url(../images/budget-bg.png) no-repeat 0 0.88rem;
     background-size: 100% auto;
 }
 form{
-    padding: 0.5rem 0.33rem;
-    margin: 0.5rem auto 0.4rem;
+    padding: 0 0.33rem 0.5rem;
+    margin: 2.78rem auto 0.4rem;
     width: 6.4rem;
     background: #fff;
     box-shadow: 0 0 10px #959595;
+}
+form .title{
+    line-height: 1.05rem;
+    font-size: 0.32rem;
+    font-weight: bold;
+    text-align: center;
 }
 form div{
     margin-bottom: 0.2rem;
@@ -39,6 +45,16 @@ form div input{
     width: 4.1rem;
     height: 100%;
     text-align: right;
+}
+form div select{
+     padding: 0 0.25rem;
+     height: 100%;
+ }
+form div.area input{
+    width: 3.7rem;
+}
+form div.area i{
+    font-style: normal;
 }
 form button{
     margin: 0.26rem 0;
