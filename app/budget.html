@@ -6,6 +6,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/swiper-4.3.3.min.css">
     <link rel="stylesheet" href="css/public.css">
     <link rel="stylesheet" href="css/budget.css">
 </head>
@@ -18,23 +19,48 @@
 </div>
 
 <div class="container">
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="images/budget-bg.png" alt=""></div>
+            <div class="swiper-slide"><img src="images/budget-bg.png" alt=""></div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
     <form>
+        <p class="title">快速报价</p>
         <div>
             <img src="images/house.png" alt="">
             <span>小区名称</span>
             <input type="text" placeholder="请输入您的小区名称">
         </div>
         <div>
-            <img src="images/people-black.png" alt="">
-            <span>姓&emsp;&emsp;名</span>
-            <input type="text" placeholder="请输入您的姓名">
+            <img src="images/house-type.png" alt="">
+            <span>户&emsp;&emsp;型</span>
+            <select class="fr">
+                <option value ="1室1厅1厨1卫">1室1厅1厨1卫</option>
+                <option value ="1室2厅1厨1卫">1室2厅1厨1卫</option>
+                <option value="1室2厅1厨2卫">1室2厅1厨2卫</option>
+                <option value="2室2厅1厨1卫">2室2厅1厨1卫</option>
+                <option value="3室2厅1厨2卫">3室2厅1厨2卫</option>
+                <option value="3室1厅1厨2卫">3室1厅1厨2卫</option>
+                <option value="3室2厅1厨1卫">3室2厅1厨1卫</option>
+                <option value="2室2厅1厨2卫">2室2厅1厨2卫</option>
+                <option value="3室1厅1厨1卫">3室1厅1厨1卫</option>
+                <option value="4室2厅1厨2卫">4室2厅1厨2卫</option>
+                <option value="5室2厅2卫">5室2厅2卫</option>
+            </select>
+        </div>
+        <div class="area">
+            <img src="images/area.png" alt="">
+            <span>房屋面积</span>
+            <input type="text"><i>m²</i>
         </div>
         <div>
             <img src="images/phone.png" alt="">
             <span>联系方式</span>
             <input type="text" placeholder="请输入您的手机号码">
         </div>
-        <button>立即预约</button>
+        <button>立即获取装修报价</button>
     </form>
     <div class="bottom">
         <img src="images/detection.png" alt="">
@@ -58,5 +84,18 @@
 </ul>
 
 <script src="js/rem.js"></script>
+<script src="js/swiper-4.3.3.min.js"></script>
+<script>
+    var mySwiper = new Swiper('.swiper-container', {
+        loop: true,
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },
+        pagination: {
+            el: '.swiper-pagination',
+        },
+    })
+</script>
 </body>
 </html>
