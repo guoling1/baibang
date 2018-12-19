@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0559016d-03bb-4bc5-b3a3-de148a2cc9a4" name="Default" comment="首页">
-      <change afterPath="$PROJECT_DIR$/app/budget.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/css/budget.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/css/strategyDetail.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/css/strategyList.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/strategyDetail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/strategyList.html" afterDir="false" />
+    <list default="true" id="0559016d-03bb-4bc5-b3a3-de148a2cc9a4" name="Default" comment="yemian">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/css/strategy.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/strategy.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/strategy.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/strategy.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,11 +17,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/strategyDetail.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="264">
-                  <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+                <state relative-caret-position="110">
+                  <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
                   <folding>
                     <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
                   </folding>
@@ -37,11 +29,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/budget.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="308">
-                  <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+                <state relative-caret-position="154">
+                  <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
                 </state>
               </provider>
             </entry>
@@ -171,8 +163,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="826" />
-    <option name="y" value="19" />
+    <option name="x" value="545" />
     <option name="width" value="1215" />
     <option name="height" value="1047" />
   </component>
@@ -215,7 +206,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../chuangxin/mobile" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
@@ -291,7 +282,7 @@
       <workItem from="1541812790891" duration="606000" />
       <workItem from="1544841009269" duration="15075000" />
       <workItem from="1544921422896" duration="13295000" />
-      <workItem from="1545103342618" duration="13264000" />
+      <workItem from="1545103342618" duration="13374000" />
     </task>
     <task id="LOCAL-00001" summary="zhuce">
       <created>1531387866661</created>
@@ -524,14 +515,21 @@
       <option name="project" value="LOCAL" />
       <updated>1544948066747</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="yemian">
+      <created>1545126298663</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1545126298663</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="285326000" />
+    <option name="totallyTimeSpent" value="285436000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="826" y="19" width="1215" height="1047" extended-state="0" />
+    <frame x="545" y="0" width="1215" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1682243" />
@@ -572,7 +570,8 @@
     <MESSAGE value="商品" />
     <MESSAGE value="积分" />
     <MESSAGE value="首页" />
-    <option name="LAST_COMMIT_MESSAGE" value="首页" />
+    <MESSAGE value="yemian" />
+    <option name="LAST_COMMIT_MESSAGE" value="yemian" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/manage/extract.html">
@@ -899,13 +898,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/budget.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/css/strategyDetail.css">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -913,20 +905,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/css/budget.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/strategyDetail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+        <state relative-caret-position="110">
+          <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
           <folding>
             <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/css/budget.css">
+    <entry file="file://$PROJECT_DIR$/app/budget.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        <state relative-caret-position="154">
+          <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
         </state>
       </provider>
     </entry>
